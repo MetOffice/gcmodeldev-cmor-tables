@@ -1,0 +1,92 @@
+{
+    "Header": {
+        "data_specs_version": "0.0.1",
+        "cmor_version": "3.3",
+        "table_id": "Table GCLmon",
+        "realm": "land",
+        "table_date": "13 December 2018",
+        "missing_value": "1e20",
+        "int_missing_value": "-999",
+        "product": "model-output",
+        "approx_interval": "30.00000",
+        "generic_levels": "",
+        "mip_era": "GCModelDev",
+        "Conventions": "CF-1.7 CMIP-6.2"
+    },
+    "variable_entry": {
+        "dslw": {
+            "frequency": "mon",
+            "modeling_realm": "land",
+            "standard_name": "change_over_time_in_mass_content_of_water_in_soil",
+            "units": "kg m-2",
+            "cell_methods": "area: mean where land time: mean",
+            "cell_measures": "area: areacella",
+            "long_name": "Change in Soil Moisture",
+            "comment": "The phrase 'change_over_time_in_X' means change in a quantity X over a time-interval, which should be defined by the bounds of the time coordinate. 'Content' indicates a quantity per un
+it area. The mass content of water in soil refers to the vertical integral from the surface down to the bottom of the soil model. For the content between specified levels in the soil, standard names including
+'content_of_soil_layer' are used. 'Water' means water in all phases.",
+            "dimensions": "longitude latitude time",
+            "out_name": "dslw",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
+        },
+        "mrrob": {
+            "frequency": "mon",
+            "modeling_realm": "land",
+            "standard_name": "subsurface_runoff_flux",
+            "units": "kg m-2 s-1",
+            "cell_methods": "area: mean where land time: mean",
+            "cell_measures": "area: areacella",
+            "long_name": "Subsurface Runoff",
+            "comment": "Runoff is the liquid water which drains from land. If not specified, 'runoff' refers to the sum of surface runoff and subsurface drainage. In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.",
+            "dimensions": "longitude latitude time",
+            "out_name": "mrrob",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
+        },
+        "rivi": {
+            "frequency": "mon",
+            "modeling_realm": "land",
+            "standard_name": "incoming_water_volume_transport_along_river_channel",
+            "units": "m3 s-1",
+            "cell_methods": "area: mean where land time: mean",
+            "cell_measures": "area: areacellr",
+            "long_name": "River Inflow",
+            "comment": "Inflow of River Water into Cell",
+            "dimensions": "longitude latitude time",
+            "out_name": "rivi",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
+        },
+        "rivo": {
+            "frequency": "mon",
+            "modeling_realm": "land",
+            "standard_name": "outgoing_water_volume_transport_along_river_channel",
+            "units": "m3 s-1",
+            "cell_methods": "area: mean where land time: mean",
+            "cell_measures": "area: areacellr",
+            "long_name": "River Discharge",
+            "comment": "Outflow of River Water from Cell",
+            "dimensions": "longitude latitude time",
+            "out_name": "rivo",
+            "type": "real",
+            "positive": "",
+            "valid_min": "",
+            "valid_max": "",
+            "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
+        }
+    }
+}
