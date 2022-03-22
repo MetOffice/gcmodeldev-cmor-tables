@@ -1,10 +1,10 @@
 {
     "Header": {
-        "data_specs_version": "0.0.1",
-        "cmor_version": "3.3",
+        "data_specs_version": "GCModelDev 0.0.2",
+        "cmor_version": "3.5",
         "table_id": "Table GCAmon",
         "realm": "atmos atmosChem",
-        "table_date": "13 December 2018",
+        "table_date": "22 March 2022",
         "missing_value": "1e20",
         "int_missing_value": "-999",
         "product": "model-output",
