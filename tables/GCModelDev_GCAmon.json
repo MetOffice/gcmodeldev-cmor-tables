@@ -1,6 +1,6 @@
 {
     "Header": {
-        "data_specs_version": "GCModelDev 0.0.2",
+        "data_specs_version": "GCModelDev 0.0.3",
         "cmor_version": "3.5",
         "table_id": "Table GCAmon",
         "realm": "atmos atmosChem",

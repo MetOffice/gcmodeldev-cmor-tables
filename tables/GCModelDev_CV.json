@@ -30,12 +30,14 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_version":"GCModelDev v0.0.1"
+            "CV_collection_version":"GCModelDev v0.0.3"
         },
         "activity_id":{
+            "ESMVal" : "ESMValTool",
+            "GMED":"Global Model Evaluation and Development",
             "UCC":"Understanding Climate Change",
             "UKCP": "UK Climate Projections",
-            "GMED":"Global Model Evaluation and Development"
+            "UKESM":"UKESM team"
         },
         "institution_id":{
             "MOHC":"Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK"
@@ -52,7 +54,7 @@
                     "MOHC"
                 ],
                 "source_id":"HadGEM3-GC31-LL",
-                "source":"HadGEM3-GC31-LL ... "
+                "source":"HadGEM3-GC31-LL (2016): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)\natmosChem: none\nland: JULES-HadGEM3-GL7.1\nlandIce: none\nocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)"
             },
             "HadGEM3-GC31-MM":{
                 "activity_participation":[
@@ -66,7 +68,23 @@
                     "MOHC"
                 ],
                 "source_id":"HadGEM3-GC31-MM",
-                "source":"HadGEM3-GC31-MM ... "
+                "source":"HadGEM3-GC31-MM (2016): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA7.1 (N216; 432 x 324 longitude/latitude; 85 levels; top level 85 km)\natmosChem: none\nland: JULES-HadGEM3-GL7.1\nlandIce: none\nocean: NEMO-HadGEM3-GO6.0 (eORCA025 tripolar primarily 0.25 deg; 1440 x 1205 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: none\nseaIce: CICE-HadGEM3-GSI8 (eORCA025 tripolar primarily 0.25 deg; 1440 x 1205 longitude/latitude)"
+            },
+            "UKESM1-0-LL":{
+                "activity_participation":[
+                    "UKESM"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "MOHC",
+                    "NERC",
+                    "NIMS-KMA",
+                    "NIWA"
+                ],
+                "source_id":"UKESM1-0-LL",
+                "source":"UKESM1.0-LL (2018): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)\natmosChem: UKCA-StratTrop\nland: JULES-ES-1.0\nlandIce: none\nocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: MEDUSA2\nseaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)"
             }
         },
         "source_type":{
@@ -176,17 +194,54 @@
             "seaIce":"Sea Ice"
         },
         "table_id":[
+            "3hr",
+            "6hrLev",
+            "6hrPlev",
+            "6hrPlevPt",
+            "AERday",
+            "AERhr",
             "AERmon",
+            "AERmonZ",
             "Amon",
+            "CF3hr",
+            "CFday",
+            "CFmon",
+            "CFsubhr",
+            "E1hr",
+            "E1hrClimMon",
+            "E3hr",
+            "E3hrPt",
+            "E6hrZ",
+            "Eday",
+            "EdayZ",
+            "Efx",
             "Emon",
-            "GCAmon",
-            "GCLmon",
+            "EmonZ",
+            "Esubhr",
+            "Eyr",
+            "IfxAnt",
+            "IfxGre",
+            "ImonAnt",
+            "ImonGre",
+            "IyrAnt",
+            "IyrGre",
             "LImon",
             "Lmon",
-            "SImon"
+            "Oclim",
+            "Oday",
+            "Odec",
+            "Ofx",
+            "Omon",
+            "Oyr",
+            "SIday",
+            "SImon",
+            "day",
+            "fx",
+            "GCAmon",
+            "GCLmon"
         ],
         "license":[
-            "^GCModelDev model data produced by .* is licensed under a Creative Commons .* License .https://creativecommons.org/licenses.*$"
+            "^GCModelDev model data is licensed under the Open Government License v3 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)$"
         ],
         "mip_era":[
             "GCModelDev"
@@ -195,6 +250,54 @@
             "none":"none"
         },
         "experiment_id":{
+            "esmval-dummy-ao":{
+                "activity_id":[
+                    "ESMVal"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"ESMVal dummy experiment AOGCM",
+                "experiment_id":"esmval-dummy-ao",
+                "parent_activity_id":[
+                    "no parent"
+                ],
+                "parent_experiment_id":[
+                    "no parent"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "esmval-dummy-a":{
+                "activity_id":[
+                    "ESMVal"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"ESMVal Dummy experiment AGCM",
+                "experiment_id":"esmval-dummy-a",
+                "parent_activity_id":[
+                    "no parent"
+                ],
+                "parent_experiment_id":[
+                    "no parent"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
             "mohc1":{
                 "activity_id":[
                     "UCC"
@@ -245,7 +348,7 @@
             }
         },
         "tracking_id":[
-            "hdl:XX.YYYY/.*"
+            "GCMODELDEV/.*"
         ],
         "realization_index":[
             "^\\[\\{0,\\}[[:digit:]]\\{1,\\}\\]\\{0,\\}$"
