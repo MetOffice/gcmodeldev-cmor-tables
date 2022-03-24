@@ -30,9 +30,10 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_version":"GCModelDev v0.0.3"
+            "CV_collection_version":"GCModelDev v0.0.4"
         },
         "activity_id":{
+            "DECK": "CMIP DECK Experiments",
             "ESMVal" : "ESMValTool",
             "GMED":"Global Model Evaluation and Development",
             "UCC":"Understanding Climate Change",
@@ -250,6 +251,78 @@
             "none":"none"
         },
         "experiment_id":{
+            "1pctCO2":{
+                "activity_id":[
+                    "DECK"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"1 percent per year increase in CO2",
+                "experiment_id":"1pctCO2",
+                "parent_activity_id":[
+                    "DECK"
+                ],
+                "parent_experiment_id":[
+                    "piControl"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "abrupt-4xCO2":{
+                "activity_id":[
+                    "DECK"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"abrupt quadrupling of CO2",
+                "experiment_id":"abrupt-4xCO2",
+                "parent_activity_id":[
+                    "DECK"
+                ],
+                "parent_experiment_id":[
+                    "piControl"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "amip":{
+                "activity_id":[
+                    "DECK"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"AMIP",
+                "experiment_id":"amip",
+                "parent_activity_id":[
+                    "no parent"
+                ],
+                "parent_experiment_id":[
+                    "no parent"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
             "esmval-dummy-ao":{
                 "activity_id":[
                     "ESMVal"
@@ -298,6 +371,30 @@
                     "none"
                 ]
             },
+            "historical":{
+                "activity_id":[
+                    "DECK"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"all-forcing simulation of the recent past",
+                "experiment_id":"historical",
+                "parent_activity_id":[
+                    "DECK"
+                ],
+                "parent_experiment_id":[
+                    "piControl"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
             "mohc1":{
                 "activity_id":[
                     "UCC"
@@ -341,6 +438,54 @@
                 ],
                 "required_model_components":[
                     "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "piControl":{
+                "activity_id":[
+                    "DECK"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"pre-industrial control",
+                "experiment_id":"piControl",
+                "parent_activity_id":[
+                    "DECK"
+                ],
+                "parent_experiment_id":[
+                    "piControl-spinup"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "piControl-spinup":{
+                "activity_id":[
+                    "DECK"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"pre-industrial control (spin-up)",
+                "experiment_id":"piControl-spinup",
+                "parent_activity_id":[
+                    "no parent"
+                ],
+                "parent_experiment_id":[
+                    "no parent"
+                ],
+                "required_model_components":[
+                    "AOGCM"
                 ],
                 "sub_experiment_id":[
                     "none"
