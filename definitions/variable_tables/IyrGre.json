@@ -1,0 +1,700 @@
+{
+  "header": {
+    "data_specs_version": "CMIP6 01.00.32",
+    "cmor_version": "3.5",
+    "table_id": "Table IyrGre",
+    "realm": "landIce",
+    "table_date": "2020-05-28",
+    "missing_value": 1e+20,
+    "int_missing_value": -999,
+    "product": "model-output",
+    "approx_interval": 365.0,
+    "mip_era": "GCModelDev",
+    "conventions": [
+      "CF-1.7",
+      "CMIP-6.2"
+    ]
+  },
+  "variable_entry": [
+    {
+      "id": "acabf",
+      "frequency": "yr",
+      "standard_name": "land_ice_surface_specific_mass_balance_flux",
+      "units": "kg m-2 s-1",
+      "cell_methods": "area: time: mean where ice_sheet",
+      "cell_measures": "area: areacellg",
+      "long_name": "Surface Mass Balance Flux",
+      "comment": "Specific mass balance means the net rate at which ice is added per unit area at the land ice surface. Computed as the total surface mass balance on the land ice portion of the grid cell divided by land ice area in the grid cell. A negative value means loss of ice",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "acabf",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "hfgeoubed",
+      "frequency": "yr",
+      "standard_name": "upward_geothermal_heat_flux_at_ground_level_in_land_ice",
+      "units": "W m-2",
+      "cell_methods": "area: time: mean where grounded_ice_sheet (comment: mask=sfgrlf)",
+      "cell_measures": "area: areacellg",
+      "long_name": "Geothermal Heat Flux Beneath Land Ice",
+      "comment": "Upward geothermal heat flux per unit area into the base of grounded land ice. This is related to the geothermal heat flux out of the bedrock, but may be modified by horizontal transport due to run-off and by melting at the interface.",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "hfgeoubed",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "iareafl",
+      "frequency": "yr",
+      "standard_name": "floating_ice_shelf_area",
+      "units": "m2",
+      "cell_methods": "area: time: mean where floating_ice_shelf (comment: mask=sftflf)",
+      "cell_measures": "",
+      "long_name": "Area Covered by Floating Ice Shelves",
+      "comment": "Total area of the floating ice shelves (the component of ice sheet that flows over ocean)",
+      "dimensions": [
+        "time"
+      ],
+      "out_name": "iareafl",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "iareagr",
+      "frequency": "yr",
+      "standard_name": "grounded_ice_sheet_area",
+      "units": "m2",
+      "cell_methods": "area: time: mean where grounded_ice_sheet (comment: mask=sfgrlf)",
+      "cell_measures": "",
+      "long_name": "Area Covered by Grounded Ice Sheet",
+      "comment": "Total area of the grounded ice sheets (the component of ice sheet resting over bedrock)",
+      "dimensions": [
+        "time"
+      ],
+      "out_name": "iareagr",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "libmassbffl",
+      "frequency": "yr",
+      "standard_name": "land_ice_basal_specific_mass_balance_flux",
+      "units": "kg m-2 s-1",
+      "cell_methods": "area: time: mean where floating_ice_shelf (comment: mask=sftflf)",
+      "cell_measures": "area: areacellg",
+      "long_name": "Basal Specific Mass Balance Flux of Floating Ice Shelf",
+      "comment": "Specific mass balance means the net rate at which ice is added per unit area at the land ice base.  A negative value means loss of ice. Computed as the total basal mass balance on the floating land ice (floating ice shelf) portion of the grid cell divided by floating land ice (floating ice shelf) area in the grid cell. Cell_methods: area: mean where floating_ice_shelf",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "libmassbffl",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "libmassbfgr",
+      "frequency": "yr",
+      "standard_name": "land_ice_basal_specific_mass_balance_flux",
+      "units": "kg m-2 s-1",
+      "cell_methods": "area: time: mean where grounded_ice_sheet (comment: mask=sfgrlf)",
+      "cell_measures": "area: areacellg",
+      "long_name": "Basal Specific Mass Balance Flux of Grounded Ice Sheet",
+      "comment": "Specific mass balance means the net rate at which ice is added per unit area at the land ice base.  A negative value means loss of ice. Computed as the total basal mass balance on the grounded land ice portion of the grid cell divided by grounded land ice area in the grid cell. Cell_methods: area: mean where grounded_ice_sheet",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "libmassbfgr",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "licalvf",
+      "frequency": "yr",
+      "standard_name": "land_ice_specific_mass_flux_due_to_calving",
+      "units": "kg m-2 s-1",
+      "cell_methods": "area: time: mean where ice_sheet",
+      "cell_measures": "area: areacellg",
+      "long_name": "Land Ice Calving Flux",
+      "comment": "Loss of ice mass resulting from iceberg calving. Computed as the rate of mass loss by the ice shelf (in kg s-1) divided by the horizontal area of the ice sheet (m2) in the grid box.",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "licalvf",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "lifmassbf",
+      "frequency": "yr",
+      "standard_name": "land_ice_specific_mass_flux_due_to_calving_and_ice_front_melting",
+      "units": "kg m-2 s-1",
+      "cell_methods": "area: time: mean where ice_sheet",
+      "cell_measures": "area: areacellg",
+      "long_name": "Land Ice Vertical Front Mass Balance Flux",
+      "comment": "Total mass balance at the ice front (or vertical margin). It includes both iceberg calving and melt on vertical ice front",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "lifmassbf",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "lim",
+      "frequency": "yr",
+      "standard_name": "land_ice_mass",
+      "units": "kg",
+      "cell_methods": "area: sum where ice_sheet time: mean",
+      "cell_measures": "",
+      "long_name": "Ice Sheet Mass",
+      "comment": "The ice sheet mass is computed as the volume times density",
+      "dimensions": [
+        "time"
+      ],
+      "out_name": "lim",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "limnsw",
+      "frequency": "yr",
+      "standard_name": "land_ice_mass_not_displacing_sea_water",
+      "units": "kg",
+      "cell_methods": "area: time: mean where grounded_ice_sheet (comment: mask=sfgrlf)",
+      "cell_measures": "",
+      "long_name": "Ice Sheet Mass That Does not Displace Sea Water",
+      "comment": "The ice sheet mass is computed as the volume above flotation times density. Changes in land_ice_mass_not_displacing_sea_water will always result in a change in sea level, unlike changes in land_ice_mass which may not result in sea level change (such as melting of the floating ice shelves, or portion of ice that sits on bedrock below sea level)",
+      "dimensions": [
+        "time"
+      ],
+      "out_name": "limnsw",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "litempbotfl",
+      "frequency": "yr",
+      "standard_name": "land_ice_basal_temperature",
+      "units": "K",
+      "cell_methods": "area: time: mean where floating_ice_shelf (comment: mask=sftflf)",
+      "cell_measures": "area: areacellg",
+      "long_name": "Basal Temperature of Floating Ice Shelf",
+      "comment": "Basal temperature that is used to force the ice sheet models, it is the temperature AT ice shelf-ocean interface.  Cell_methods: area: mean where floating_ice_shelf",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "litempbotfl",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "litempbotgr",
+      "frequency": "yr",
+      "standard_name": "land_ice_basal_temperature",
+      "units": "K",
+      "cell_methods": "area: time: mean where grounded_ice_sheet (comment: mask=sfgrlf)",
+      "cell_measures": "area: areacellg",
+      "long_name": "Basal Temperature of Grounded Ice Sheet",
+      "comment": "Basal temperature that is used to force the ice sheet models, it is the temperature AT ice sheet - bedrock interface. Cell_methods: area: mean where grounded_ice_sheet",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "litempbotgr",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "litemptop",
+      "frequency": "yr",
+      "standard_name": "temperature_at_top_of_ice_sheet_model",
+      "units": "K",
+      "cell_methods": "area: time: mean where ice_sheet",
+      "cell_measures": "area: areacellg",
+      "long_name": "Temperature at Top of Ice Sheet Model",
+      "comment": "Upper boundary temperature that is used to force ice sheet models. It is the temperature at the base of the snowpack models, and does not vary with seasons. Report surface temperature of ice sheet where snow thickness is zero",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "litemptop",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "lithk",
+      "frequency": "yr",
+      "standard_name": "land_ice_thickness",
+      "units": "m",
+      "cell_methods": "area: time: mean where ice_sheet",
+      "cell_measures": "area: areacellg",
+      "long_name": "Ice Sheet Thickness",
+      "comment": "The thickness of the ice sheet",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "lithk",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "modelCellAreai",
+      "frequency": "yr",
+      "standard_name": "cell_area",
+      "units": "m2",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacellg",
+      "long_name": "The Cell Area of the Ice Sheet Model",
+      "comment": "Horizontal area of ice-sheet grid cells",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "modelCellAreai",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "orog",
+      "frequency": "yr",
+      "standard_name": "surface_altitude",
+      "units": "m",
+      "cell_methods": "area: time: mean where ice_sheet",
+      "cell_measures": "area: areacellg",
+      "long_name": "Surface Altitude",
+      "comment": "The surface called 'surface' means the lower boundary of the atmosphere. Altitude is the (geometric) height above the geoid, which is the reference geopotential surface. The geoid is similar to mean sea level.",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "orog",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "land"
+      ]
+    },
+    {
+      "id": "sftflf",
+      "frequency": "yr",
+      "standard_name": "floating_ice_shelf_area_fraction",
+      "units": "%",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacellg",
+      "long_name": "Floating Ice Shelf Area Percentage",
+      "comment": "Percentage of grid cell covered by floating ice shelf, the component of the ice sheet that is flowing over sea water",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "sftflf",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "sftgif",
+      "frequency": "yr",
+      "standard_name": "land_ice_area_fraction",
+      "units": "%",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacellg",
+      "long_name": "Land Ice Area Percentage",
+      "comment": "Percentage of grid cell covered by land ice (ice sheet, ice shelf, ice cap, glacier)",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "sftgif",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "land"
+      ]
+    },
+    {
+      "id": "sftgrf",
+      "frequency": "yr",
+      "standard_name": "grounded_ice_sheet_area_fraction",
+      "units": "%",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacellg",
+      "long_name": "Grounded Ice Sheet Area Percentage",
+      "comment": "Percentage of grid cell covered by grounded ice sheet",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "sftgrf",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "snc",
+      "frequency": "yr",
+      "standard_name": "surface_snow_area_fraction",
+      "units": "%",
+      "cell_methods": "area: time: mean where ice_sheet",
+      "cell_measures": "area: areacellg",
+      "long_name": "Snow Area Percentage",
+      "comment": "Percentage of each grid cell that is occupied by snow that rests on land portion of cell.",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "snc",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ]
+    },
+    {
+      "id": "strbasemag",
+      "frequency": "yr",
+      "standard_name": "land_ice_basal_drag",
+      "units": "Pa",
+      "cell_methods": "area: time: mean where ice_sheet",
+      "cell_measures": "area: areacellg",
+      "long_name": "Land Ice Basal Drag",
+      "comment": "Magnitude of basal drag at land ice base",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "strbasemag",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "tendacabf",
+      "frequency": "yr",
+      "standard_name": "tendency_of_land_ice_mass_due_to_surface_mass_balance",
+      "units": "kg s-1",
+      "cell_methods": "area: sum where ice_sheet time: mean",
+      "cell_measures": "",
+      "long_name": "Total Surface Mass Balance Flux",
+      "comment": "The total surface mass balance flux over land ice is a spatial integration of the surface mass balance flux",
+      "dimensions": [
+        "time"
+      ],
+      "out_name": "tendacabf",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "tendlibmassbf",
+      "frequency": "yr",
+      "standard_name": "tendency_of_land_ice_mass_due_to_basal_mass_balance",
+      "units": "kg s-1",
+      "cell_methods": "area: sum where ice_sheet time: mean",
+      "cell_measures": "",
+      "long_name": "Total Basal Mass Balance Flux",
+      "comment": "The total basal mass balance flux over land ice is a spatial integration of the basal mass balance flux",
+      "dimensions": [
+        "time"
+      ],
+      "out_name": "tendlibmassbf",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "tendlicalvf",
+      "frequency": "yr",
+      "standard_name": "tendency_of_land_ice_mass_due_to_calving",
+      "units": "kg s-1",
+      "cell_methods": "area: sum where ice_sheet time: mean",
+      "cell_measures": "",
+      "long_name": "Total Calving Flux",
+      "comment": "The total calving flux over land ice is a spatial integration of the calving flux",
+      "dimensions": [
+        "time"
+      ],
+      "out_name": "tendlicalvf",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "topg",
+      "frequency": "yr",
+      "standard_name": "bedrock_altitude",
+      "units": "m",
+      "cell_methods": "area: time: mean where ice_sheet",
+      "cell_measures": "area: areacellg",
+      "long_name": "Bedrock Altitude",
+      "comment": "The bedrock topography beneath the land ice",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "topg",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "xvelbase",
+      "frequency": "yr",
+      "standard_name": "land_ice_basal_x_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean where ice_sheet",
+      "cell_measures": "area: areacellg",
+      "long_name": "X-Component of Land Ice Basal Velocity",
+      "comment": "A velocity is a vector quantity. 'x' indicates a vector component along the grid x-axis, positive with increasing x. 'Land ice' means glaciers, ice-caps and ice-sheets resting on bedrock and also includes ice-shelves. 'basal' means the lower boundary of the land ice.",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "xvelbase",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "xvelmean",
+      "frequency": "yr",
+      "standard_name": "land_ice_vertical_mean_x_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean where ice_sheet",
+      "cell_measures": "area: areacellg",
+      "long_name": "X-Component of Land Ice Vertical Mean Velocity",
+      "comment": "The vertical mean land ice velocity is the average from the bedrock to the surface of the ice",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "xvelmean",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "xvelsurf",
+      "frequency": "yr",
+      "standard_name": "land_ice_surface_x_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean where ice_sheet",
+      "cell_measures": "area: areacellg",
+      "long_name": "X-Component of Land Ice Surface Velocity",
+      "comment": "A velocity is a vector quantity. 'x' indicates a vector component along the grid x-axis, positive with increasing x. 'Land ice' means glaciers, ice-caps and ice-sheets resting on bedrock and also includes ice-shelves. The surface called 'surface' means the lower boundary of the atmosphere.",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "xvelsurf",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "yvelbase",
+      "frequency": "yr",
+      "standard_name": "land_ice_basal_y_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean where ice_sheet",
+      "cell_measures": "area: areacellg",
+      "long_name": "Y-Component of Land Ice Basal Velocity",
+      "comment": "A velocity is a vector quantity. 'y' indicates a vector component along the grid y-axis, positive with increasing y. 'Land ice' means glaciers, ice-caps and ice-sheets resting on bedrock and also includes ice-shelves. 'basal' means the lower boundary of the land ice.",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "yvelbase",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "yvelmean",
+      "frequency": "yr",
+      "standard_name": "land_ice_vertical_mean_y_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean where ice_sheet",
+      "cell_measures": "area: areacellg",
+      "long_name": "Y-Component of Land Ice Vertical Mean Velocity",
+      "comment": "The vertical mean land ice velocity is the average from the bedrock to the surface of the ice",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "yvelmean",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "yvelsurf",
+      "frequency": "yr",
+      "standard_name": "land_ice_surface_y_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean where ice_sheet",
+      "cell_measures": "area: areacellg",
+      "long_name": "Y-Component of Land Ice Surface Velocity",
+      "comment": "A velocity is a vector quantity. 'y' indicates a vector component along the grid y-axis, positive with increasing y. 'Land ice' means glaciers, ice-caps and ice-sheets resting on bedrock and also includes ice-shelves. The surface called 'surface' means the lower boundary of the atmosphere.'",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "yvelsurf",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "zvelbase",
+      "frequency": "yr",
+      "standard_name": "land_ice_basal_upward_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean where ice_sheet",
+      "cell_measures": "area: areacellg",
+      "long_name": "Upward Component of Land-Ice Basal Velocity",
+      "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). 'basal' means the lower boundary of the atmosphere",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "zvelbase",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "zvelsurf",
+      "frequency": "yr",
+      "standard_name": "land_ice_surface_upward_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean where ice_sheet",
+      "cell_measures": "area: areacellg",
+      "long_name": "Upward Component of Land-Ice Surface Velocity",
+      "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). The surface called 'surface' means the lower boundary of the atmosphere",
+      "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+      ],
+      "out_name": "zvelsurf",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    }
+  ]
+}

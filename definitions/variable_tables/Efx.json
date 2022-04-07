@@ -1,0 +1,351 @@
+{
+  "header": {
+    "data_specs_version": "CMIP6 01.00.32",
+    "cmor_version": "3.5",
+    "table_id": "Table Efx",
+    "realm": "land",
+    "table_date": "2020-05-28",
+    "missing_value": 1e+20,
+    "int_missing_value": -999,
+    "product": "model-output",
+    "approx_interval": 0.0,
+    "mip_era": "GCModelDev",
+    "conventions": [
+      "CF-1.7",
+      "CMIP-6.2"
+    ],
+    "generic_levels": [
+      "alevhalf"
+    ]
+  },
+  "variable_entry": [
+    {
+      "id": "clayfrac",
+      "frequency": "fx",
+      "standard_name": "volume_fraction_of_clay_in_soil",
+      "units": "1",
+      "cell_methods": "area: mean where land",
+      "cell_measures": "area: areacella",
+      "long_name": "Clay Fraction",
+      "comment": "'Volume fraction' is used in the construction volume_fraction_of_X_in_Y, where X is a material constituent of Y.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth"
+      ],
+      "out_name": "clayfrac",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "land"
+      ]
+    },
+    {
+      "id": "fldcapacity",
+      "frequency": "fx",
+      "standard_name": "volume_fraction_of_condensed_water_in_soil_at_field_capacity",
+      "units": "%",
+      "cell_methods": "area: mean where land",
+      "cell_measures": "area: areacella",
+      "long_name": "Field Capacity",
+      "comment": "The field capacity of soil is the maximum content of water it can retain against gravitational drainage. Provide as a percentage of the soil volume.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth"
+      ],
+      "out_name": "fldcapacity",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "land"
+      ]
+    },
+    {
+      "id": "ksat",
+      "frequency": "fx",
+      "standard_name": "soil_hydraulic_conductivity_at_saturation",
+      "units": "micron s-1",
+      "cell_methods": "area: mean where land",
+      "cell_measures": "area: areacella",
+      "long_name": "Saturated Hydraulic Conductivity",
+      "comment": "Hydraulic conductivity is the constant k in Darcy's Law q=-k grad h for fluid flow q (volume transport per unit area i.e. velocity) through a porous medium, where h is the hydraulic head (pressure expressed as an equivalent depth of water).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth"
+      ],
+      "out_name": "ksat",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "land"
+      ]
+    },
+    {
+      "id": "ps",
+      "frequency": "fx",
+      "standard_name": "surface_air_pressure",
+      "units": "Pa",
+      "cell_methods": "area: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Surface Air Pressure",
+      "comment": "surface pressure (not mean sea-level pressure), 2-D field to calculate the 3-D pressure field from hybrid coordinates",
+      "dimensions": [
+        "longitude",
+        "latitude"
+      ],
+      "out_name": "ps",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "rld",
+      "frequency": "fx",
+      "standard_name": "downwelling_longwave_flux_in_air",
+      "units": "W m-2",
+      "cell_methods": "area: point",
+      "cell_measures": "",
+      "long_name": "Downwelling Longwave Radiation",
+      "comment": "Downwelling Longwave Radiation (includes the fluxes at the surface and TOA)",
+      "dimensions": [
+        "alevhalf",
+        "spectband"
+      ],
+      "out_name": "rld",
+      "type": "real",
+      "positive": "down",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "rlu",
+      "frequency": "fx",
+      "standard_name": "upwelling_longwave_flux_in_air",
+      "units": "W m-2",
+      "cell_methods": "area: point",
+      "cell_measures": "",
+      "long_name": "Upwelling Longwave Radiation",
+      "comment": "Upwelling longwave radiation (includes the fluxes at the surface and TOA)",
+      "dimensions": [
+        "alevhalf",
+        "spectband"
+      ],
+      "out_name": "rlu",
+      "type": "real",
+      "positive": "up",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "rootdsl",
+      "frequency": "fx",
+      "standard_name": "root_mass_content_of_carbon",
+      "units": "kg m-2",
+      "cell_methods": "area: mean where land",
+      "cell_measures": "area: areacella",
+      "long_name": "Root Distribution",
+      "comment": "Mass of carbon in roots.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth"
+      ],
+      "out_name": "rootdsl",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "land"
+      ]
+    },
+    {
+      "id": "rsd",
+      "frequency": "fx",
+      "standard_name": "downwelling_shortwave_flux_in_air",
+      "units": "W m-2",
+      "cell_methods": "area: point",
+      "cell_measures": "",
+      "long_name": "Downwelling Shortwave Radiation",
+      "comment": "Downwelling shortwave radiation (includes the fluxes at the surface and top-of-atmosphere)",
+      "dimensions": [
+        "alevhalf",
+        "spectband"
+      ],
+      "out_name": "rsd",
+      "type": "real",
+      "positive": "down",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "rsu",
+      "frequency": "fx",
+      "standard_name": "upwelling_shortwave_flux_in_air",
+      "units": "W m-2",
+      "cell_methods": "area: point",
+      "cell_measures": "",
+      "long_name": "Upwelling Shortwave Radiation",
+      "comment": "Upwelling shortwave radiation  (includes also the fluxes at the surface and top of atmosphere)",
+      "dimensions": [
+        "alevhalf",
+        "spectband"
+      ],
+      "out_name": "rsu",
+      "type": "real",
+      "positive": "up",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "sandfrac",
+      "frequency": "fx",
+      "standard_name": "volume_fraction_of_sand_in_soil",
+      "units": "1",
+      "cell_methods": "area: mean where land",
+      "cell_measures": "area: areacella",
+      "long_name": "Sand Fraction",
+      "comment": "'Volume fraction' is used in the construction volume_fraction_of_X_in_Y, where X is a material constituent of Y.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth"
+      ],
+      "out_name": "sandfrac",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "land"
+      ]
+    },
+    {
+      "id": "sftflf",
+      "frequency": "fx",
+      "standard_name": "floating_ice_shelf_area_fraction",
+      "units": "%",
+      "cell_methods": "area: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Floating Ice Shelf Area Percentage",
+      "comment": "Percentage of grid cell covered by floating ice shelf, the component of the ice sheet that is flowing over sea water",
+      "dimensions": [
+        "longitude",
+        "latitude"
+      ],
+      "out_name": "sftflf",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "sftgrf",
+      "frequency": "fx",
+      "standard_name": "grounded_ice_sheet_area_fraction",
+      "units": "%",
+      "cell_methods": "area: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Grounded Ice Sheet Area Percentage",
+      "comment": "Percentage of grid cell covered by grounded ice sheet",
+      "dimensions": [
+        "longitude",
+        "latitude"
+      ],
+      "out_name": "sftgrf",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "landIce"
+      ]
+    },
+    {
+      "id": "siltfrac",
+      "frequency": "fx",
+      "standard_name": "volume_fraction_of_silt_in_soil",
+      "units": "1",
+      "cell_methods": "area: mean where land",
+      "cell_measures": "area: areacella",
+      "long_name": "Silt Fraction",
+      "comment": "Volume fraction of silt in soil",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth"
+      ],
+      "out_name": "siltfrac",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "slthick",
+      "frequency": "fx",
+      "standard_name": "cell_thickness",
+      "units": "m",
+      "cell_methods": "area: mean where land",
+      "cell_measures": "area: areacella",
+      "long_name": "Thickness of Soil Layers",
+      "comment": "'Thickness' means the vertical extent of a layer. 'Cell' refers to a model grid cell.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth"
+      ],
+      "out_name": "slthick",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "land"
+      ]
+    },
+    {
+      "id": "vegHeight",
+      "frequency": "fx",
+      "standard_name": "canopy_height",
+      "units": "m",
+      "cell_methods": "area: mean where land",
+      "cell_measures": "area: areacella",
+      "long_name": "Height of the Vegetation Canopy",
+      "comment": "Vegetation height averaged over all vegetation types and over the vegetated fraction of a grid cell.",
+      "dimensions": [
+        "longitude",
+        "latitude"
+      ],
+      "out_name": "vegHeight",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "land"
+      ]
+    },
+    {
+      "id": "wilt",
+      "frequency": "fx",
+      "standard_name": "volume_fraction_of_condensed_water_in_soil_at_wilting_point",
+      "units": "%",
+      "cell_methods": "area: mean where land",
+      "cell_measures": "area: areacella",
+      "long_name": "Wilting Point",
+      "comment": "Percentage water content of soil by volume at the wilting point. The wilting point of soil is the water content below which plants cannot extract sufficient water to balance their loss through transpiration. ",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth"
+      ],
+      "out_name": "wilt",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "land"
+      ]
+    }
+  ]
+}

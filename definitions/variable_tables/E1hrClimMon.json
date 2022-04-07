@@ -1,0 +1,125 @@
+{
+  "header": {
+    "data_specs_version": "CMIP6 01.00.32",
+    "cmor_version": "3.5",
+    "table_id": "Table E1hrClimMon",
+    "realm": "atmos",
+    "table_date": "2020-05-28",
+    "missing_value": 1e+20,
+    "int_missing_value": -999,
+    "product": "model-output",
+    "approx_interval": 0.041667,
+    "mip_era": "GCModelDev",
+    "conventions": [
+      "CF-1.7",
+      "CMIP-6.2"
+    ]
+  },
+  "variable_entry": [
+    {
+      "id": "rlut",
+      "frequency": "1hrCM",
+      "standard_name": "toa_outgoing_longwave_flux",
+      "units": "W m-2",
+      "cell_methods": "area: mean time: mean within days time: mean over days",
+      "cell_measures": "area: areacella",
+      "long_name": "TOA Outgoing Longwave Radiation",
+      "comment": "at the top of the atmosphere (to be compared with satellite measurements)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time3"
+      ],
+      "out_name": "rlut",
+      "type": "real",
+      "positive": "up",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "rlutcs",
+      "frequency": "1hrCM",
+      "standard_name": "toa_outgoing_longwave_flux_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "area: mean time: mean within days time: mean over days",
+      "cell_measures": "area: areacella",
+      "long_name": "TOA Outgoing Clear-Sky Longwave Radiation",
+      "comment": "Upwelling clear-sky longwave radiation at top of atmosphere",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time3"
+      ],
+      "out_name": "rlutcs",
+      "type": "real",
+      "positive": "up",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "rsdt",
+      "frequency": "1hrCM",
+      "standard_name": "toa_incoming_shortwave_flux",
+      "units": "W m-2",
+      "cell_methods": "area: mean time: mean within days time: mean over days",
+      "cell_measures": "area: areacella",
+      "long_name": "TOA Incident Shortwave Radiation",
+      "comment": "Shortwave radiation incident at the top of the atmosphere",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time3"
+      ],
+      "out_name": "rsdt",
+      "type": "real",
+      "positive": "down",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "rsut",
+      "frequency": "1hrCM",
+      "standard_name": "toa_outgoing_shortwave_flux",
+      "units": "W m-2",
+      "cell_methods": "area: mean time: mean within days time: mean over days",
+      "cell_measures": "area: areacella",
+      "long_name": "TOA Outgoing Shortwave Radiation",
+      "comment": "at the top of the atmosphere",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time3"
+      ],
+      "out_name": "rsut",
+      "type": "real",
+      "positive": "up",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "rsutcs",
+      "frequency": "1hrCM",
+      "standard_name": "toa_outgoing_shortwave_flux_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "area: mean time: mean within days time: mean over days",
+      "cell_measures": "area: areacella",
+      "long_name": "TOA Outgoing Clear-Sky Shortwave Radiation",
+      "comment": "Calculated in the absence of clouds.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time3"
+      ],
+      "out_name": "rsutcs",
+      "type": "real",
+      "positive": "up",
+      "modeling_realm": [
+        "atmos"
+      ]
+    }
+  ]
+}

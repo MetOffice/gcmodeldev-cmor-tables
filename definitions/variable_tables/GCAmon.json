@@ -1,0 +1,2840 @@
+{
+  "header": {
+    "data_specs_version": "GCModelDev 0.0.4",
+    "cmor_version": "3.5",
+    "table_id": "Table GCAmon",
+    "realm": "atmos atmosChem",
+    "table_date": "2022-03-22",
+    "missing_value": 1e+20,
+    "int_missing_value": -999,
+    "product": "model-output",
+    "approx_interval": 30.0,
+    "mip_era": "GCModelDev",
+    "conventions": [
+      "CF-1.7",
+      "CMIP-6.2"
+    ],
+    "generic_levels": [
+      "alevel",
+      "alevhalf"
+    ]
+  },
+  "variable_entry": [
+    {
+      "id": "hur10",
+      "frequency": "mon",
+      "standard_name": "relative_humidity",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Relative Humidity",
+      "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p10"
+      ],
+      "out_name": "hur10",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hur20",
+      "frequency": "mon",
+      "standard_name": "relative_humidity",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Relative Humidity",
+      "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p20"
+      ],
+      "out_name": "hur20",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hur30",
+      "frequency": "mon",
+      "standard_name": "relative_humidity",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Relative Humidity",
+      "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p30"
+      ],
+      "out_name": "hur30",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hur50",
+      "frequency": "mon",
+      "standard_name": "relative_humidity",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Relative Humidity",
+      "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p50"
+      ],
+      "out_name": "hur50",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hur70",
+      "frequency": "mon",
+      "standard_name": "relative_humidity",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Relative Humidity",
+      "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p70"
+      ],
+      "out_name": "hur70",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hur100",
+      "frequency": "mon",
+      "standard_name": "relative_humidity",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Relative Humidity",
+      "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p100"
+      ],
+      "out_name": "hur100",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hur150",
+      "frequency": "mon",
+      "standard_name": "relative_humidity",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Relative Humidity",
+      "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p150"
+      ],
+      "out_name": "hur150",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hur200",
+      "frequency": "mon",
+      "standard_name": "relative_humidity",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Relative Humidity",
+      "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p200"
+      ],
+      "out_name": "hur200",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hur250",
+      "frequency": "mon",
+      "standard_name": "relative_humidity",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Relative Humidity",
+      "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p250"
+      ],
+      "out_name": "hur250",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hur300",
+      "frequency": "mon",
+      "standard_name": "relative_humidity",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Relative Humidity",
+      "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p300"
+      ],
+      "out_name": "hur300",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hur400",
+      "frequency": "mon",
+      "standard_name": "relative_humidity",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Relative Humidity",
+      "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p400"
+      ],
+      "out_name": "hur400",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hur500",
+      "frequency": "mon",
+      "standard_name": "relative_humidity",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Relative Humidity",
+      "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p500"
+      ],
+      "out_name": "hur500",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hur600",
+      "frequency": "mon",
+      "standard_name": "relative_humidity",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Relative Humidity",
+      "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p600"
+      ],
+      "out_name": "hur600",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hur700",
+      "frequency": "mon",
+      "standard_name": "relative_humidity",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Relative Humidity",
+      "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p700"
+      ],
+      "out_name": "hur700",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hur850",
+      "frequency": "mon",
+      "standard_name": "relative_humidity",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Relative Humidity",
+      "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p850"
+      ],
+      "out_name": "hur850",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hur925",
+      "frequency": "mon",
+      "standard_name": "relative_humidity",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Relative Humidity",
+      "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p925"
+      ],
+      "out_name": "hur925",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hus10",
+      "frequency": "mon",
+      "standard_name": "specific_humidity",
+      "units": "1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Specific Humidity",
+      "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p10"
+      ],
+      "out_name": "hus10",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hus20",
+      "frequency": "mon",
+      "standard_name": "specific_humidity",
+      "units": "1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Specific Humidity",
+      "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p20"
+      ],
+      "out_name": "hus20",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hus30",
+      "frequency": "mon",
+      "standard_name": "specific_humidity",
+      "units": "1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Specific Humidity",
+      "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p30"
+      ],
+      "out_name": "hus30",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hus50",
+      "frequency": "mon",
+      "standard_name": "specific_humidity",
+      "units": "1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Specific Humidity",
+      "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p50"
+      ],
+      "out_name": "hus50",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hus70",
+      "frequency": "mon",
+      "standard_name": "specific_humidity",
+      "units": "1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Specific Humidity",
+      "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p70"
+      ],
+      "out_name": "hus70",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hus100",
+      "frequency": "mon",
+      "standard_name": "specific_humidity",
+      "units": "1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Specific Humidity",
+      "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p100"
+      ],
+      "out_name": "hus100",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hus150",
+      "frequency": "mon",
+      "standard_name": "specific_humidity",
+      "units": "1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Specific Humidity",
+      "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p150"
+      ],
+      "out_name": "hus150",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hus200",
+      "frequency": "mon",
+      "standard_name": "specific_humidity",
+      "units": "1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Specific Humidity",
+      "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p200"
+      ],
+      "out_name": "hus200",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hus250",
+      "frequency": "mon",
+      "standard_name": "specific_humidity",
+      "units": "1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Specific Humidity",
+      "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p250"
+      ],
+      "out_name": "hus250",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hus300",
+      "frequency": "mon",
+      "standard_name": "specific_humidity",
+      "units": "1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Specific Humidity",
+      "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p300"
+      ],
+      "out_name": "hus300",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hus400",
+      "frequency": "mon",
+      "standard_name": "specific_humidity",
+      "units": "1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Specific Humidity",
+      "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p400"
+      ],
+      "out_name": "hus400",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hus500",
+      "frequency": "mon",
+      "standard_name": "specific_humidity",
+      "units": "1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Specific Humidity",
+      "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p500"
+      ],
+      "out_name": "hus500",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hus600",
+      "frequency": "mon",
+      "standard_name": "specific_humidity",
+      "units": "1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Specific Humidity",
+      "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p600"
+      ],
+      "out_name": "hus600",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hus700",
+      "frequency": "mon",
+      "standard_name": "specific_humidity",
+      "units": "1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Specific Humidity",
+      "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p700"
+      ],
+      "out_name": "hus700",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hus850",
+      "frequency": "mon",
+      "standard_name": "specific_humidity",
+      "units": "1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Specific Humidity",
+      "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p850"
+      ],
+      "out_name": "hus850",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "hus925",
+      "frequency": "mon",
+      "standard_name": "specific_humidity",
+      "units": "1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Specific Humidity",
+      "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p925"
+      ],
+      "out_name": "hus925",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ta10",
+      "frequency": "mon",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Air Temperature",
+      "comment": "Air Temperature",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p10"
+      ],
+      "out_name": "ta10",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ta20",
+      "frequency": "mon",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Air Temperature",
+      "comment": "Air Temperature",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p20"
+      ],
+      "out_name": "ta20",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ta30",
+      "frequency": "mon",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Air Temperature",
+      "comment": "Air Temperature",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p30"
+      ],
+      "out_name": "ta30",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ta50",
+      "frequency": "mon",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Air Temperature",
+      "comment": "Air Temperature",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p50"
+      ],
+      "out_name": "ta50",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ta70",
+      "frequency": "mon",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Air Temperature",
+      "comment": "Air Temperature",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p70"
+      ],
+      "out_name": "ta70",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ta100",
+      "frequency": "mon",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Air Temperature",
+      "comment": "Air Temperature",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p100"
+      ],
+      "out_name": "ta100",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ta150",
+      "frequency": "mon",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Air Temperature",
+      "comment": "Air Temperature",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p150"
+      ],
+      "out_name": "ta150",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ta200",
+      "frequency": "mon",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Air Temperature",
+      "comment": "Air Temperature",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p200"
+      ],
+      "out_name": "ta200",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ta250",
+      "frequency": "mon",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Air Temperature",
+      "comment": "Air Temperature",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p250"
+      ],
+      "out_name": "ta250",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ta300",
+      "frequency": "mon",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Air Temperature",
+      "comment": "Air Temperature",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p300"
+      ],
+      "out_name": "ta300",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ta400",
+      "frequency": "mon",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Air Temperature",
+      "comment": "Air Temperature",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p400"
+      ],
+      "out_name": "ta400",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ta500",
+      "frequency": "mon",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Air Temperature",
+      "comment": "Air Temperature",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p500"
+      ],
+      "out_name": "ta500",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ta600",
+      "frequency": "mon",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Air Temperature",
+      "comment": "Air Temperature",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p600"
+      ],
+      "out_name": "ta600",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ta700",
+      "frequency": "mon",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Air Temperature",
+      "comment": "Air Temperature",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p700"
+      ],
+      "out_name": "ta700",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ta850",
+      "frequency": "mon",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Air Temperature",
+      "comment": "Air Temperature",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p850"
+      ],
+      "out_name": "ta850",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ta925",
+      "frequency": "mon",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Air Temperature",
+      "comment": "Air Temperature",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p925"
+      ],
+      "out_name": "ta925",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ua10",
+      "frequency": "mon",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Eastward Wind",
+      "comment": "Zonal wind (positive in a eastward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p10"
+      ],
+      "out_name": "ua10",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ua20",
+      "frequency": "mon",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Eastward Wind",
+      "comment": "Zonal wind (positive in a eastward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p20"
+      ],
+      "out_name": "ua20",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ua30",
+      "frequency": "mon",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Eastward Wind",
+      "comment": "Zonal wind (positive in a eastward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p30"
+      ],
+      "out_name": "ua30",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ua50",
+      "frequency": "mon",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Eastward Wind",
+      "comment": "Zonal wind (positive in a eastward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p50"
+      ],
+      "out_name": "ua50",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ua70",
+      "frequency": "mon",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Eastward Wind",
+      "comment": "Zonal wind (positive in a eastward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p70"
+      ],
+      "out_name": "ua70",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ua100",
+      "frequency": "mon",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Eastward Wind",
+      "comment": "Zonal wind (positive in a eastward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p100"
+      ],
+      "out_name": "ua100",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ua150",
+      "frequency": "mon",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Eastward Wind",
+      "comment": "Zonal wind (positive in a eastward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p150"
+      ],
+      "out_name": "ua150",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ua200",
+      "frequency": "mon",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Eastward Wind",
+      "comment": "Zonal wind (positive in a eastward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p200"
+      ],
+      "out_name": "ua200",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ua250",
+      "frequency": "mon",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Eastward Wind",
+      "comment": "Zonal wind (positive in a eastward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p250"
+      ],
+      "out_name": "ua250",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ua300",
+      "frequency": "mon",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Eastward Wind",
+      "comment": "Zonal wind (positive in a eastward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p300"
+      ],
+      "out_name": "ua300",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ua400",
+      "frequency": "mon",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Eastward Wind",
+      "comment": "Zonal wind (positive in a eastward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p400"
+      ],
+      "out_name": "ua400",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ua500",
+      "frequency": "mon",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Eastward Wind",
+      "comment": "Zonal wind (positive in a eastward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p500"
+      ],
+      "out_name": "ua500",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ua600",
+      "frequency": "mon",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Eastward Wind",
+      "comment": "Zonal wind (positive in a eastward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p600"
+      ],
+      "out_name": "ua600",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ua700",
+      "frequency": "mon",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Eastward Wind",
+      "comment": "Zonal wind (positive in a eastward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p700"
+      ],
+      "out_name": "ua700",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ua850",
+      "frequency": "mon",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Eastward Wind",
+      "comment": "Zonal wind (positive in a eastward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p850"
+      ],
+      "out_name": "ua850",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "ua925",
+      "frequency": "mon",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Eastward Wind",
+      "comment": "Zonal wind (positive in a eastward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p925"
+      ],
+      "out_name": "ua925",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "va10",
+      "frequency": "mon",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Northward Wind",
+      "comment": "Meridional wind (positive in a northward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p10"
+      ],
+      "out_name": "va10",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "va20",
+      "frequency": "mon",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Northward Wind",
+      "comment": "Meridional wind (positive in a northward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p20"
+      ],
+      "out_name": "va20",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "va30",
+      "frequency": "mon",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Northward Wind",
+      "comment": "Meridional wind (positive in a northward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p30"
+      ],
+      "out_name": "va30",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "va50",
+      "frequency": "mon",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Northward Wind",
+      "comment": "Meridional wind (positive in a northward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p50"
+      ],
+      "out_name": "va50",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "va70",
+      "frequency": "mon",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Northward Wind",
+      "comment": "Meridional wind (positive in a northward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p70"
+      ],
+      "out_name": "va70",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "va100",
+      "frequency": "mon",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Northward Wind",
+      "comment": "Meridional wind (positive in a northward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p100"
+      ],
+      "out_name": "va100",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "va150",
+      "frequency": "mon",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Northward Wind",
+      "comment": "Meridional wind (positive in a northward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p150"
+      ],
+      "out_name": "va150",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "va200",
+      "frequency": "mon",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Northward Wind",
+      "comment": "Meridional wind (positive in a northward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p200"
+      ],
+      "out_name": "va200",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "va250",
+      "frequency": "mon",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Northward Wind",
+      "comment": "Meridional wind (positive in a northward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p250"
+      ],
+      "out_name": "va250",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "va300",
+      "frequency": "mon",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Northward Wind",
+      "comment": "Meridional wind (positive in a northward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p300"
+      ],
+      "out_name": "va300",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "va400",
+      "frequency": "mon",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Northward Wind",
+      "comment": "Meridional wind (positive in a northward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p400"
+      ],
+      "out_name": "va400",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "va500",
+      "frequency": "mon",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Northward Wind",
+      "comment": "Meridional wind (positive in a northward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p500"
+      ],
+      "out_name": "va500",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "va600",
+      "frequency": "mon",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Northward Wind",
+      "comment": "Meridional wind (positive in a northward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p600"
+      ],
+      "out_name": "va600",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "va700",
+      "frequency": "mon",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Northward Wind",
+      "comment": "Meridional wind (positive in a northward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p700"
+      ],
+      "out_name": "va700",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "va850",
+      "frequency": "mon",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Northward Wind",
+      "comment": "Meridional wind (positive in a northward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p850"
+      ],
+      "out_name": "va850",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "va925",
+      "frequency": "mon",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Northward Wind",
+      "comment": "Meridional wind (positive in a northward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p925"
+      ],
+      "out_name": "va925",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "wa10",
+      "frequency": "mon",
+      "standard_name": "upward_air_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Upward Air Velocity",
+      "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p10"
+      ],
+      "out_name": "wa10",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "aerosol"
+      ]
+    },
+    {
+      "id": "wa20",
+      "frequency": "mon",
+      "standard_name": "upward_air_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Upward Air Velocity",
+      "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p20"
+      ],
+      "out_name": "wa20",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "aerosol"
+      ]
+    },
+    {
+      "id": "wa30",
+      "frequency": "mon",
+      "standard_name": "upward_air_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Upward Air Velocity",
+      "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p30"
+      ],
+      "out_name": "wa30",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "aerosol"
+      ]
+    },
+    {
+      "id": "wa50",
+      "frequency": "mon",
+      "standard_name": "upward_air_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Upward Air Velocity",
+      "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p50"
+      ],
+      "out_name": "wa50",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "aerosol"
+      ]
+    },
+    {
+      "id": "wa70",
+      "frequency": "mon",
+      "standard_name": "upward_air_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Upward Air Velocity",
+      "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p70"
+      ],
+      "out_name": "wa70",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "aerosol"
+      ]
+    },
+    {
+      "id": "wa100",
+      "frequency": "mon",
+      "standard_name": "upward_air_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Upward Air Velocity",
+      "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p100"
+      ],
+      "out_name": "wa100",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "aerosol"
+      ]
+    },
+    {
+      "id": "wa150",
+      "frequency": "mon",
+      "standard_name": "upward_air_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Upward Air Velocity",
+      "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p150"
+      ],
+      "out_name": "wa150",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "aerosol"
+      ]
+    },
+    {
+      "id": "wa200",
+      "frequency": "mon",
+      "standard_name": "upward_air_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Upward Air Velocity",
+      "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p200"
+      ],
+      "out_name": "wa200",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "aerosol"
+      ]
+    },
+    {
+      "id": "wa250",
+      "frequency": "mon",
+      "standard_name": "upward_air_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Upward Air Velocity",
+      "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p250"
+      ],
+      "out_name": "wa250",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "aerosol"
+      ]
+    },
+    {
+      "id": "wa300",
+      "frequency": "mon",
+      "standard_name": "upward_air_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Upward Air Velocity",
+      "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p300"
+      ],
+      "out_name": "wa300",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "aerosol"
+      ]
+    },
+    {
+      "id": "wa400",
+      "frequency": "mon",
+      "standard_name": "upward_air_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Upward Air Velocity",
+      "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p400"
+      ],
+      "out_name": "wa400",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "aerosol"
+      ]
+    },
+    {
+      "id": "wa500",
+      "frequency": "mon",
+      "standard_name": "upward_air_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Upward Air Velocity",
+      "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p500"
+      ],
+      "out_name": "wa500",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "aerosol"
+      ]
+    },
+    {
+      "id": "wa600",
+      "frequency": "mon",
+      "standard_name": "upward_air_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Upward Air Velocity",
+      "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p600"
+      ],
+      "out_name": "wa600",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "aerosol"
+      ]
+    },
+    {
+      "id": "wa700",
+      "frequency": "mon",
+      "standard_name": "upward_air_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Upward Air Velocity",
+      "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p700"
+      ],
+      "out_name": "wa700",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "aerosol"
+      ]
+    },
+    {
+      "id": "wa850",
+      "frequency": "mon",
+      "standard_name": "upward_air_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Upward Air Velocity",
+      "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p850"
+      ],
+      "out_name": "wa850",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "aerosol"
+      ]
+    },
+    {
+      "id": "wa925",
+      "frequency": "mon",
+      "standard_name": "upward_air_velocity",
+      "units": "m s-1",
+      "cell_methods": "area: time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Upward Air Velocity",
+      "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward). Upward air velocity is the vertical component of the 3D air velocity vector. The standard name downward_air_velocity may be used for a vector component with the opposite sign convention.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p925"
+      ],
+      "out_name": "wa925",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "aerosol"
+      ]
+    },
+    {
+      "id": "wap10",
+      "frequency": "mon",
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "units": "Pa s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Omega (=dp/dt)",
+      "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p10"
+      ],
+      "out_name": "wap10",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "wap20",
+      "frequency": "mon",
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "units": "Pa s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Omega (=dp/dt)",
+      "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p20"
+      ],
+      "out_name": "wap20",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "wap30",
+      "frequency": "mon",
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "units": "Pa s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Omega (=dp/dt)",
+      "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p30"
+      ],
+      "out_name": "wap30",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "wap50",
+      "frequency": "mon",
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "units": "Pa s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Omega (=dp/dt)",
+      "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p50"
+      ],
+      "out_name": "wap50",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "wap70",
+      "frequency": "mon",
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "units": "Pa s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Omega (=dp/dt)",
+      "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p70"
+      ],
+      "out_name": "wap70",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "wap100",
+      "frequency": "mon",
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "units": "Pa s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Omega (=dp/dt)",
+      "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p100"
+      ],
+      "out_name": "wap100",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "wap150",
+      "frequency": "mon",
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "units": "Pa s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Omega (=dp/dt)",
+      "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p150"
+      ],
+      "out_name": "wap150",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "wap200",
+      "frequency": "mon",
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "units": "Pa s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Omega (=dp/dt)",
+      "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p200"
+      ],
+      "out_name": "wap200",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "wap250",
+      "frequency": "mon",
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "units": "Pa s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Omega (=dp/dt)",
+      "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p250"
+      ],
+      "out_name": "wap250",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "wap300",
+      "frequency": "mon",
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "units": "Pa s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Omega (=dp/dt)",
+      "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p300"
+      ],
+      "out_name": "wap300",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "wap400",
+      "frequency": "mon",
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "units": "Pa s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Omega (=dp/dt)",
+      "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p400"
+      ],
+      "out_name": "wap400",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "wap500",
+      "frequency": "mon",
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "units": "Pa s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Omega (=dp/dt)",
+      "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p500"
+      ],
+      "out_name": "wap500",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "wap600",
+      "frequency": "mon",
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "units": "Pa s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Omega (=dp/dt)",
+      "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p600"
+      ],
+      "out_name": "wap600",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "wap700",
+      "frequency": "mon",
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "units": "Pa s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Omega (=dp/dt)",
+      "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p700"
+      ],
+      "out_name": "wap700",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "wap850",
+      "frequency": "mon",
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "units": "Pa s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Omega (=dp/dt)",
+      "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p850"
+      ],
+      "out_name": "wap850",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "wap925",
+      "frequency": "mon",
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "units": "Pa s-1",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Omega (=dp/dt)",
+      "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p925"
+      ],
+      "out_name": "wap925",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "zg10",
+      "frequency": "mon",
+      "standard_name": "geopotential_height",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Geopotential Height",
+      "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p10"
+      ],
+      "out_name": "zg10",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "zg20",
+      "frequency": "mon",
+      "standard_name": "geopotential_height",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Geopotential Height",
+      "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p20"
+      ],
+      "out_name": "zg20",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "zg30",
+      "frequency": "mon",
+      "standard_name": "geopotential_height",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Geopotential Height",
+      "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p30"
+      ],
+      "out_name": "zg30",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "zg50",
+      "frequency": "mon",
+      "standard_name": "geopotential_height",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Geopotential Height",
+      "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p50"
+      ],
+      "out_name": "zg50",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "zg70",
+      "frequency": "mon",
+      "standard_name": "geopotential_height",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Geopotential Height",
+      "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p70"
+      ],
+      "out_name": "zg70",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "zg100",
+      "frequency": "mon",
+      "standard_name": "geopotential_height",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Geopotential Height",
+      "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p100"
+      ],
+      "out_name": "zg100",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "zg150",
+      "frequency": "mon",
+      "standard_name": "geopotential_height",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Geopotential Height",
+      "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p150"
+      ],
+      "out_name": "zg150",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "zg200",
+      "frequency": "mon",
+      "standard_name": "geopotential_height",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Geopotential Height",
+      "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p200"
+      ],
+      "out_name": "zg200",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "zg250",
+      "frequency": "mon",
+      "standard_name": "geopotential_height",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Geopotential Height",
+      "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p250"
+      ],
+      "out_name": "zg250",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "zg300",
+      "frequency": "mon",
+      "standard_name": "geopotential_height",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Geopotential Height",
+      "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p300"
+      ],
+      "out_name": "zg300",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "zg400",
+      "frequency": "mon",
+      "standard_name": "geopotential_height",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Geopotential Height",
+      "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p400"
+      ],
+      "out_name": "zg400",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "zg500",
+      "frequency": "mon",
+      "standard_name": "geopotential_height",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Geopotential Height",
+      "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p500"
+      ],
+      "out_name": "zg500",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "zg600",
+      "frequency": "mon",
+      "standard_name": "geopotential_height",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Geopotential Height",
+      "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p600"
+      ],
+      "out_name": "zg600",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "zg700",
+      "frequency": "mon",
+      "standard_name": "geopotential_height",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Geopotential Height",
+      "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p700"
+      ],
+      "out_name": "zg700",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "zg850",
+      "frequency": "mon",
+      "standard_name": "geopotential_height",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Geopotential Height",
+      "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p850"
+      ],
+      "out_name": "zg850",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    },
+    {
+      "id": "zg925",
+      "frequency": "mon",
+      "standard_name": "geopotential_height",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "cell_measures": "area: areacella",
+      "long_name": "Geopotential Height",
+      "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p925"
+      ],
+      "out_name": "zg925",
+      "type": "real",
+      "positive": "",
+      "modeling_realm": [
+        "atmos"
+      ]
+    }
+  ]
+}
