@@ -1,0 +1,154 @@
+{
+  "title": "Dimensions",
+  "type": "object",
+  "properties": {
+    "axis_entry": {
+      "title": "Axis Entry",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Dimension"
+      }
+    }
+  },
+  "required": [
+    "axis_entry"
+  ],
+  "definitions": {
+    "Dimension": {
+      "title": "Dimension",
+      "type": "object",
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "standard_name": {
+          "title": "Standard Name",
+          "type": "string"
+        },
+        "units": {
+          "title": "Units",
+          "type": "string"
+        },
+        "axis": {
+          "title": "Axis",
+          "type": "string"
+        },
+        "long_name": {
+          "title": "Long Name",
+          "type": "string"
+        },
+        "climatology": {
+          "title": "Climatology",
+          "type": "string"
+        },
+        "formula": {
+          "title": "Formula",
+          "type": "string"
+        },
+        "must_have_bounds": {
+          "title": "Must Have Bounds",
+          "type": "boolean"
+        },
+        "out_name": {
+          "title": "Out Name",
+          "type": "string"
+        },
+        "positive": {
+          "title": "Positive",
+          "type": "string"
+        },
+        "requested": {
+          "title": "Requested",
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          }
+        },
+        "requested_bounds": {
+          "title": "Requested Bounds",
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "string"
+              }
+            ]
+          }
+        },
+        "stored_direction": {
+          "title": "Stored Direction",
+          "type": "string"
+        },
+        "tolerance": {
+          "title": "Tolerance",
+          "type": "number"
+        },
+        "type": {
+          "title": "Type",
+          "type": "string"
+        },
+        "valid_max": {
+          "title": "Valid Max",
+          "type": "number"
+        },
+        "valid_min": {
+          "title": "Valid Min",
+          "type": "number"
+        },
+        "value": {
+          "title": "Value",
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "z_bounds_factors": {
+          "title": "Z Bounds Factors",
+          "type": "string"
+        },
+        "z_factors": {
+          "title": "Z Factors",
+          "type": "string"
+        },
+        "bounds_values": {
+          "title": "Bounds Values",
+          "type": "string"
+        },
+        "generic_level_name": {
+          "title": "Generic Level Name",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "standard_name",
+        "units",
+        "axis",
+        "long_name",
+        "climatology",
+        "formula",
+        "must_have_bounds",
+        "out_name",
+        "positive",
+        "stored_direction",
+        "type",
+        "generic_level_name"
+      ]
+    }
+  }
+}

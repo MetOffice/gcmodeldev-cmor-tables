@@ -1,0 +1,187 @@
+{
+  "title": "VariableTable",
+  "type": "object",
+  "properties": {
+    "header": {
+      "$ref": "#/definitions/VariableTableHeader"
+    },
+    "variable_entry": {
+      "title": "Variable Entry",
+      "default": [],
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/CmorVariable"
+      }
+    }
+  },
+  "required": [
+    "header"
+  ],
+  "definitions": {
+    "VariableTableHeader": {
+      "title": "VariableTableHeader",
+      "type": "object",
+      "properties": {
+        "data_specs_version": {
+          "title": "Data Specs Version",
+          "type": "string"
+        },
+        "cmor_version": {
+          "title": "Cmor Version",
+          "type": "string"
+        },
+        "table_id": {
+          "title": "Table Id",
+          "type": "string"
+        },
+        "realm": {
+          "title": "Realm",
+          "type": "string"
+        },
+        "table_date": {
+          "title": "Table Date",
+          "type": "string",
+          "format": "date"
+        },
+        "missing_value": {
+          "title": "Missing Value",
+          "type": "number"
+        },
+        "int_missing_value": {
+          "title": "Int Missing Value",
+          "type": "integer"
+        },
+        "product": {
+          "title": "Product",
+          "type": "string"
+        },
+        "approx_interval": {
+          "title": "Approx Interval",
+          "type": "number"
+        },
+        "mip_era": {
+          "title": "Mip Era",
+          "type": "string"
+        },
+        "conventions": {
+          "title": "Conventions",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "generic_levels": {
+          "title": "Generic Levels",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "data_specs_version",
+        "cmor_version",
+        "table_id",
+        "realm",
+        "table_date",
+        "product",
+        "mip_era",
+        "conventions"
+      ]
+    },
+    "CmorVariable": {
+      "title": "CmorVariable",
+      "type": "object",
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "frequency": {
+          "title": "Frequency",
+          "type": "string"
+        },
+        "standard_name": {
+          "title": "Standard Name",
+          "type": "string"
+        },
+        "units": {
+          "title": "Units",
+          "type": "string"
+        },
+        "cell_methods": {
+          "title": "Cell Methods",
+          "type": "string"
+        },
+        "cell_measures": {
+          "title": "Cell Measures",
+          "type": "string"
+        },
+        "long_name": {
+          "title": "Long Name",
+          "type": "string"
+        },
+        "comment": {
+          "title": "Comment",
+          "type": "string"
+        },
+        "dimensions": {
+          "title": "Dimensions",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "out_name": {
+          "title": "Out Name",
+          "type": "string"
+        },
+        "type": {
+          "title": "Type",
+          "type": "string"
+        },
+        "positive": {
+          "title": "Positive",
+          "type": "string"
+        },
+        "modeling_realm": {
+          "title": "Modeling Realm",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "valid_min": {
+          "title": "Valid Min",
+          "type": "number"
+        },
+        "valid_max": {
+          "title": "Valid Max",
+          "type": "number"
+        },
+        "ok_min_mean_abs": {
+          "title": "Ok Min Mean Abs",
+          "type": "number"
+        },
+        "ok_max_mean_abs": {
+          "title": "Ok Max Mean Abs",
+          "type": "number"
+        }
+      },
+      "required": [
+        "id",
+        "frequency",
+        "standard_name",
+        "units",
+        "cell_methods",
+        "cell_measures",
+        "long_name",
+        "comment",
+        "dimensions",
+        "out_name",
+        "type",
+        "positive"
+      ]
+    }
+  }
+}
