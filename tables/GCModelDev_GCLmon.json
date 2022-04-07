@@ -22,9 +22,7 @@
             "cell_methods": "area: mean where land time: mean",
             "cell_measures": "area: areacella",
             "long_name": "Change in Soil Moisture",
-            "comment": "The phrase 'change_over_time_in_X' means change in a quantity X over a time-interval, which should be defined by the bounds of the time coordinate. 'Content' indicates a quantity per un
-it area. The mass content of water in soil refers to the vertical integral from the surface down to the bottom of the soil model. For the content between specified levels in the soil, standard names including
-'content_of_soil_layer' are used. 'Water' means water in all phases.",
+            "comment": "The phrase 'change_over_time_in_X' means change in a quantity X over a time-interval, which should be defined by the bounds of the time coordinate. 'Content' indicates a quantity per unit area. The mass content of water in soil refers to the vertical integral from the surface down to the bottom of the soil model. For the content between specified levels in the soil, standard names including 'content_of_soil_layer' are used. 'Water' means water in all phases.",
             "dimensions": "longitude latitude time",
             "out_name": "dslw",
             "type": "real",
