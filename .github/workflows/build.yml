@@ -1,0 +1,24 @@
+name: Build generated content
+on: [ pull_request ]
+jobs:
+  list:
+    name: Generate content
+    runs-on: ubuntu-latest
+    steps:
+      - name: setup
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - uses: actions/checkout@v2
+
+      - name: generate schema
+        run: python utils/schema_generator.py
+
+      - name: generate legacy
+        run: python utils/table_converter.py
+
+      - name: commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: Adding generated tables and schema
