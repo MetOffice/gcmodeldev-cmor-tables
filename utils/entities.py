@@ -3,6 +3,9 @@
 # The file LICENCE, distributed with this code, contains details of the terms
 # under which the code may be used.
 ###############################################################################
+"""
+Entities defining the shape of the data
+"""
 from datetime import date
 from typing import List, Optional, Union
 
@@ -10,6 +13,9 @@ from pydantic import BaseModel, Field
 
 
 class CmorVariable(BaseModel):
+    """
+    Definition of a CMOR variable
+    """
     id: str
     frequency: str
     standard_name: str
@@ -30,6 +36,10 @@ class CmorVariable(BaseModel):
 
 
 class VariableTableHeader(BaseModel):
+    """
+    Definition of a CMOR Table Header Properties
+    This could be merged directly into the table with a little restructuring
+    """
     data_specs_version: str
     cmor_version: str
     table_id: str
@@ -45,11 +55,17 @@ class VariableTableHeader(BaseModel):
 
 
 class VariableTable(BaseModel):
+    """
+    CMOR Table of Variables
+    """
     header: VariableTableHeader
     variable_entry: Optional[List[CmorVariable]] = []
 
 
 class Dimension(BaseModel):
+    """
+    Dimension Definition
+    """
     id: str
     standard_name: str
     units: str
@@ -75,4 +91,7 @@ class Dimension(BaseModel):
 
 
 class Dimensions(BaseModel):
+    """
+    Collection of Dimension
+    """
     axis_entry: List[Dimension]
