@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+GCMODELDEV=${1:-$PWD}
+
+export GCMODELDEV
+export GCMODELDEV_PACKAGES="mip_table_editor"
+
+for GCMODELDEV_PACKAGE in $GCMODELDEV_PACKAGES
+do
+    # Update PATH:
+    if [ -d $GCMODELDEV/$GCMODELDEV_PACKAGES/bin ]; then
+        export PATH=$GCMODELDEV/$GCMODELDEV_PACKAGES/bin:$PATH
+    fi
+
+    # Update PYTHONPATH:
+    if [ -d $GCMODELDEV/$GCMODELDEV_PACKAGES ]; then
+        export PYTHONPATH=$GCMODELDEV/$GCMODELDEV_PACKAGES:$PYTHONPATH
+    fi
+done
