@@ -25,3 +25,5 @@ $(document).ready( function () {
 FOOTER = """
 </body>
 </html>"""
+
+WRAP_SIZE = 54

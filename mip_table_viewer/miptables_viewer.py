@@ -9,24 +9,35 @@ import textwrap
 from datetime import datetime
 
 from constants import (HEADINGS, HEADER_ROW_TEMPLATE, ROW_TEMPLATE, CELL_TEMPLATE, TABLE_TEMPLATE, BGCOLORS, HEADER,
-                       FOOTER)
+                       FOOTER, WRAP_SIZE)
 
 
 def parse_args():
+    """
+    Parse the user arguments.
+
+    Returns
+    -------
+    args : argparse.Namespace
+        User arguments.
+    """
 
     parser = argparse.ArgumentParser()
     parser.add_argument('-t',
                         '--tables_directory',
-                        help='Directory of the mip tables to generate a webview for.',
-                        type=str)
+                        help='Directory of the mip tables to generate a HTML page for.',
+                        type=str,
+                        required=True)
     parser.add_argument('-p',
                         '--prefix',
                         help='Prefix used on the mip table json files.',
-                        type=str)
+                        type=str,
+                        required=True)
     parser.add_argument('-o',
                         '--output_directory',
                         help='Output location of the generated HTML page.',
-                        type=str)
+                        type=str,
+                        required=True)
     args = parser.parse_args()
 
     return args
@@ -53,18 +64,15 @@ def get_mip_tables(tables_directory, prefix):
 
     tables_with_variables = {}
 
-    for table_path in mip_table_json:
-        with open(table_path, 'r') as f:
-            if "variable_entry" in json.loads(f.read()).keys():
-                table_name = table_path.split(prefix + '_')[1].split('.json')[0]
-                tables_with_variables[table_name] = table_path
+    excluded_tables = ['grids', 'formula_terms', 'coordinate', 'CV']
 
-    excluded_tables = ['grids']
-    for table in excluded_tables:
-        try:
-            tables_with_variables.pop(table)
-        except KeyError:
-            pass
+    for table_path in mip_table_json:
+        table_name = os.path.basename(table_path).split('_')[1].split('.json')[0]
+        with open(table_path, 'r') as f:
+            table_json = json.loads(f.read())
+
+        if "variable_entry" in table_json.keys() and table_name not in excluded_tables:
+            tables_with_variables[table_name] = table_path
 
     return tables_with_variables
 
@@ -82,7 +90,7 @@ def extract_table_data(tables):
     -------
     tables_data : list
         List of lists where each sublist contains a list representing a variable and the
-        metadata from the miptable entry. 
+        metadata from the miptable entry.
     """
     table_data = [HEADINGS]
 
@@ -119,11 +127,10 @@ def wrap_standard_name(input_text):
     wrapped_input_text : str
         The standard name string wrapped if need.
     """
-    wrap_size = 55
 
-    if len(input_text) > wrap_size:
+    if len(input_text) > WRAP_SIZE:
         wrapped_input_text = ' '.join(input_text.split('_'))
-        wrapped_input_text = textwrap.wrap(wrapped_input_text, width=wrap_size, break_long_words=False)
+        wrapped_input_text = textwrap.wrap(wrapped_input_text, width=WRAP_SIZE, break_long_words=False)
         wrapped_input_text = "\n_".join(["_".join(x.split()) for x in wrapped_input_text])
         return wrapped_input_text
     else:
@@ -143,10 +150,9 @@ def wrap_comment(input_text):
     wrapped_input_text : str
         The standard name string wrapped if need.
     """
-    wrap_size = 52
 
-    if len(input_text) > wrap_size:
-        wrapped_input_text = textwrap.wrap(input_text, width=wrap_size, break_long_words=True)
+    if len(input_text) > WRAP_SIZE:
+        wrapped_input_text = textwrap.wrap(input_text, width=WRAP_SIZE, break_long_words=True)
         wrapped_input_text = "\n".join(wrapped_input_text)
         return wrapped_input_text
     else:
