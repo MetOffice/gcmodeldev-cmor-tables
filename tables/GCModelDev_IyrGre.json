@@ -1,6 +1,6 @@
 {
     "Header": {
-        "data_specs_version": "CMIP6 01.00.32", 
+        "data_specs_version": "GCModelDev 0.0.6", 
         "cmor_version": "3.5", 
         "table_id": "Table IyrGre", 
         "realm": "landIce", 
