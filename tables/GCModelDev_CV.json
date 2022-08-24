@@ -301,7 +301,7 @@
             },
             "amip":{
                 "activity_id":[
-                    "DECK"
+                    "UCC"
                 ],
                 "additional_allowed_model_components":[
                     "AER",
@@ -322,6 +322,34 @@
                 "sub_experiment_id":[
                     "none"
                 ]
+            },
+            "amip-p4K":{
+                "activity_id":[
+                    "UCC"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM"
+                ],
+                "description":"As CMIP5/CFMIP-2 amip4K experiment. AMIP experiment where SSTs are subject to a uniform warming of 4K",
+                "end_year":"2014",
+                "experiment":"AMIP with uniform 4K SST increase",
+                "experiment_id":"amip-p4K",
+                "min_number_yrs_per_sim":"36",
+                "parent_activity_id":[
+                    "no parent"
+                ],
+                "parent_experiment_id":[
+                    "no parent"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "start_year":"1979",
+                "sub_experiment_id":[
+                    "none"
+                ],
+                "tier":"1"
             },
             "esmval-dummy-ao":{
                 "activity_id":[
