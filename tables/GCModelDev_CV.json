@@ -323,6 +323,34 @@
                     "none"
                 ]
             },
+            "amip-p4K":{
+                "activity_id":[
+                    "UCC"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM"
+                ],
+                "description":"As CMIP6 amip-p4K experiment.",
+                "end_year":"2014",
+                "experiment":"AMIP with uniform 4K SST increase",
+                "experiment_id":"amip-p4K",
+                "min_number_yrs_per_sim":"36",
+                "parent_activity_id":[
+                    "no parent"
+                ],
+                "parent_experiment_id":[
+                    "no parent"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "start_year":"1979",
+                "sub_experiment_id":[
+                    "none"
+                ],
+                "tier":"1"
+            },
             "esmval-dummy-ao":{
                 "activity_id":[
                     "ESMVal"
