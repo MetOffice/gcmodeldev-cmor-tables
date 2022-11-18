@@ -86,6 +86,23 @@
                 ],
                 "source_id":"UKESM1-0-LL",
                 "source":"UKESM1.0-LL (2018): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)\natmosChem: UKCA-StratTrop\nland: JULES-ES-1.0\nlandIce: none\nocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: MEDUSA2\nseaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)"
+            },
+            "UKESM1-1-LL":{
+                "activity_participation":[
+                    "CMIP",
+                    "ScenarioMIP"
+                ],
+                "cohort":[
+                    "Published"
+                ],
+                "institution_id":[
+                    "MOHC",
+                    "NERC",
+                    "NIMS-KMA",
+                    "NIWA"
+                ],
+                "source_id":"UKESM1-1-LL",
+                "source":"UKESM1.1-LL (2021): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)\natmosChem: UKCA-StratTrop\nland: JULES-ES-1.0\nlandIce: none\nocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: MEDUSA2\nseaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)"
             }
         },
         "source_type":{
@@ -511,6 +528,30 @@
                 ],
                 "parent_experiment_id":[
                     "no parent"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "hist-bb":{
+                "activity_id":[
+                    "UKESM"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"all-forcing simulation of the recent past with biomass burning",
+                "experiment_id":"hist-bb",
+                "parent_activity_id":[
+                    "DECK"
+                ],
+                "parent_experiment_id":[
+                    "historical"
                 ],
                 "required_model_components":[
                     "AOGCM"
