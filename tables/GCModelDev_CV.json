@@ -253,7 +253,8 @@
             "day",
             "fx",
             "GCAmon",
-            "GCLmon"
+            "GCLmon",
+            "GCAmon6hrUV"
         ],
         "license":[
             "^GCModelDev model data is licensed under the Open Government License v3 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)$"
@@ -533,7 +534,7 @@
                     "none"
                 ]
             },
-            "faf-hist-cmip5":{
+            "fa-hist-cmip5":{
                 "activity_id":[
                     "UKCP"
                 ],
@@ -543,12 +544,12 @@
                     "BGC"
                 ],
                 "experiment":"flux adjusted historical experiment similar to that performed in CMIP5",
-                "experiment_id":"faf-hist-cmip5",
+                "experiment_id":"fa-hist-cmip5",
                 "parent_activity_id":[
                     "UKCP"
                 ],
                 "parent_experiment_id":[
-                    "faf-1900Control"
+                    "fa-1900Control"
                 ],
                 "required_model_components":[
                     "AOGCM"
@@ -557,7 +558,7 @@
                     "none"
                 ]
             },
-            "faf-rcp85-cmip5":{
+            "fa-rcp85-cmip5":{
                 "activity_id":[
                     "UKCP"
                 ],
@@ -567,12 +568,12 @@
                     "BGC"
                 ],
                 "experiment":"flux adjusted RCP8.5 experiment similar to that performed in CMIP5",
-                "experiment_id":"faf-rcp85-cmip5",
+                "experiment_id":"fa-rcp85-cmip5",
                 "parent_activity_id":[
                     "UKCP"
                 ],
                 "parent_experiment_id":[
-                    "faf-hist-cmip5"
+                    "fa-hist-cmip5"
                 ],
                 "required_model_components":[
                     "AOGCM"
@@ -581,7 +582,7 @@
                     "none"
                 ]
             },
-            "faf-1900Control":{
+            "fa-1900Control":{
                 "activity_id":[
                     "UKCP"
                 ],
@@ -591,7 +592,7 @@
                     "BGC"
                 ],
                 "experiment":"flux adjusted 1900 control experiment",
-                "experiment_id":"faf-1900Control",
+                "experiment_id":"fa-1900Control",
                 "parent_activity_id":[
                     "UKCP"
                 ],
