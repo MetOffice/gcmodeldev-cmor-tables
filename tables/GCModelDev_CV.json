@@ -46,6 +46,7 @@
         "source_id":{
             "HadGEM3-GC31-LL":{
                 "activity_participation":[
+                    "DECK",
                     "UCC"
                 ],
                 "cohort":[
@@ -59,6 +60,7 @@
             },
             "HadGEM3-GC31-MM":{
                 "activity_participation":[
+                    "DECK",
                     "UCC",
                     "UKCP"
                 ],
@@ -73,6 +75,7 @@
             },
             "UKESM1-0-LL":{
                 "activity_participation":[
+                    "DECK",
                     "UKESM"
                 ],
                 "cohort":[
@@ -89,11 +92,11 @@
             },
             "UKESM1-1-LL":{
                 "activity_participation":[
-                    "CMIP",
-                    "ScenarioMIP"
+                    "DECK",
+                    "UKESM"
                 ],
                 "cohort":[
-                    "Published"
+                    "Registered"
                 ],
                 "institution_id":[
                     "MOHC",
