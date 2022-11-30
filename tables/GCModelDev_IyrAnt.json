@@ -1,6 +1,6 @@
 {
     "Header": {
-        "data_specs_version": "GCModelDev 0.0.7", 
+        "data_specs_version": "GCModelDev 0.0.8", 
         "cmor_version": "3.5", 
         "table_id": "Table IyrAnt", 
         "realm": "landIce", 

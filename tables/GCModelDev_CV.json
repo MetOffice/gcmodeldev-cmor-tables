@@ -33,11 +33,11 @@
             "CV_collection_version":"GCModelDev v0.0.6"
         },
         "activity_id":{
-            "DECK": "CMIP DECK Experiments",
-            "ESMVal" : "ESMValTool",
+            "DECK":"CMIP DECK Experiments",
+            "ESMVal":"ESMValTool",
             "GMED":"Global Model Evaluation and Development",
             "UCC":"Understanding Climate Change",
-            "UKCP": "UK Climate Projections",
+            "UKCP":"UK Climate Projections",
             "UKESM":"UKESM team"
         },
         "institution_id":{
@@ -89,6 +89,20 @@
                 ],
                 "source_id":"UKESM1-0-LL",
                 "source":"UKESM1.0-LL (2018): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)\natmosChem: UKCA-StratTrop\nland: JULES-ES-1.0\nlandIce: none\nocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: MEDUSA2\nseaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)"
+            },
+            "HadGEM3-GC3p05-N216ORCA025":{
+                "activity_participation":[
+                    "UCC",
+                    "UKCP"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "MOHC"
+                ],
+                "source_id":"HadGEM3-GC3p05-N216ORCA025",
+                "source":"HadGEM3-GC3p05-N216ORCA025 (2015)"
             },
             "UKESM1-1-LL":{
                 "activity_participation":[
@@ -259,7 +273,8 @@
             "day",
             "fx",
             "GCAmon",
-            "GCLmon"
+            "GCLmon",
+            "GCAmon6hrUV"
         ],
         "license":[
             "^GCModelDev model data is licensed under the Open Government License v3 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)$"
@@ -526,6 +541,78 @@
                 ],
                 "experiment":"pre-industrial control (spin-up)",
                 "experiment_id":"piControl-spinup",
+                "parent_activity_id":[
+                    "no parent"
+                ],
+                "parent_experiment_id":[
+                    "no parent"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "fa-hist-cmip5":{
+                "activity_id":[
+                    "UKCP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"flux adjusted historical experiment similar to that performed in CMIP5",
+                "experiment_id":"fa-hist-cmip5",
+                "parent_activity_id":[
+                    "UKCP"
+                ],
+                "parent_experiment_id":[
+                    "fa-1900Control"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "fa-rcp85-cmip5":{
+                "activity_id":[
+                    "UKCP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"flux adjusted RCP8.5 experiment similar to that performed in CMIP5",
+                "experiment_id":"fa-rcp85-cmip5",
+                "parent_activity_id":[
+                    "UKCP"
+                ],
+                "parent_experiment_id":[
+                    "fa-hist-cmip5"
+                ],
+                "required_model_components":[
+                    "AOGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
+            "fa-1900Control":{
+                "activity_id":[
+                    "UKCP"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"flux adjusted 1900 control experiment",
+                "experiment_id":"fa-1900Control",
                 "parent_activity_id":[
                     "no parent"
                 ],
