@@ -30,7 +30,7 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_version":"GCModelDev v0.0.11"
+            "CV_collection_version":"GCModelDev v0.0.12"
         },
         "activity_id":{
             "DECK":"CMIP DECK Experiments",
@@ -133,6 +133,20 @@
                 ],
                 "source_id":"UKESM1-1-LL",
                 "source":"UKESM1.1-LL (2021): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)\natmosChem: UKCA-StratTrop\nland: JULES-ES-1.0\nlandIce: none\nocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: MEDUSA2\nseaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)"
+            },
+            "HadREM3-CP4A-2p2km":{
+                "activity_participation":[
+                    "DECK",
+                    "UCC"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "MOHC"
+                ],
+                "source_id":"HadREM3-CP4A-2p2km",
+                "source":"HadREM3-CP4A-2p2km (2023)"
             }
         },
         "source_type":{
