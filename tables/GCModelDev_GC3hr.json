@@ -1,0 +1,36 @@
+{
+    "Header": {
+        "data_specs_version": "GCModelDev v0.0.15", 
+        "cmor_version": "3.5", 
+        "table_id": "Table GC3hr", 
+        "realm": "atmos", 
+        "table_date": "28 May 2020", 
+        "missing_value": "1e20", 
+        "int_missing_value": "-999", 
+        "product": "model-output", 
+        "approx_interval": "0.125000", 
+        "generic_levels": "alevel alevhalf", 
+        "mip_era": "GCModelDev", 
+        "Conventions": "CF-1.7 CMIP-6.2"
+    }, 
+    "variable_entry": {
+        "mrros": {
+            "frequency": "3hr", 
+            "modeling_realm": "land", 
+            "standard_name": "surface_runoff_flux", 
+            "units": "kg m-2 s-1", 
+            "cell_methods": "area: mean where land time: mean", 
+            "cell_measures": "area: areacella", 
+            "long_name": "Surface Runoff", 
+            "comment": "The total surface run off leaving the land portion of the grid cell (excluding drainage through the base of the soil model).", 
+            "dimensions": "longitude latitude time", 
+            "out_name": "mrros", 
+            "type": "real", 
+            "positive": "", 
+            "valid_min": "", 
+            "valid_max": "", 
+            "ok_min_mean_abs": "", 
+            "ok_max_mean_abs": ""
+        }
+    }
+}
