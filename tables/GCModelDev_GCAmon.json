@@ -1,6 +1,6 @@
 {
     "Header": {
-        "data_specs_version": "GCModelDev v0.0.15",
+        "data_specs_version": "GCModelDev v0.0.16",
         "cmor_version": "3.5",
         "table_id": "Table GCAmon",
         "realm": "atmos atmosChem",
@@ -2460,6 +2460,24 @@
             "valid_min": "",
             "valid_max": "",
             "ok_min_mean_abs": "",
+            "ok_max_mean_abs": ""
+        },
+        "zmla": {
+            "frequency": "mon", 
+            "modeling_realm": "atmos", 
+            "standard_name": "atmosphere_boundary_layer_thickness", 
+            "units": "m", 
+            "cell_methods": "area: time: mean", 
+            "cell_measures": "area: areacella", 
+            "long_name": "Height of Boundary Layer", 
+            "comment": "The atmosphere boundary layer thickness is the 'depth' or 'height' of the (atmosphere) planetary boundary layer.", 
+            "dimensions": "longitude latitude time", 
+            "out_name": "zmla", 
+            "type": "real", 
+            "positive": "", 
+            "valid_min": "", 
+            "valid_max": "", 
+            "ok_min_mean_abs": "", 
             "ok_max_mean_abs": ""
         }
     }
