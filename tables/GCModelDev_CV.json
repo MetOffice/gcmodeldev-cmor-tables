@@ -86,6 +86,19 @@
                 "source_id":"HadGEM3-GC5p-N216ORCA025",
                 "source":"HadGEM3-GC5p-N216ORCA025 (2023): Prototype N216ORCA025 Gregorian Calendar"
             },
+            "HadREM-CP4A-4p5km":{
+                "activity_participation":[
+                    "DECK"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "MOHC"
+                ],
+                "source_id":"HadREM-CP4A-4p5km",
+                "source":"HadREM-CP4A-4p5km"
+            },
             "UKESM1-0-LL":{
                 "activity_participation":[
                     "DECK",
