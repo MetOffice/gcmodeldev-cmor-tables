@@ -188,6 +188,62 @@
                 ],
                 "source_id":"eUKESM1-1-ice-N96ORCA1",
                 "source":"eUKESM1-1-ice-N96ORCA1 (2024)"
+            },
+            "HadGEM3-GC5c-N96ORCA1":{
+                "activity_participation":[
+                    "DECK",
+                    "UCC"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "MOHC"
+                ],
+                "source_id":"HadGEM3-GC5c-N96ORCA1",
+                "source":"HadGEM3-GC5c-N96ORCA1 (2024)"
+            },
+            "HadGEM3-GC5c-N216ORCA025":{
+                "activity_participation":[
+                    "DECK",
+                    "UCC"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "MOHC"
+                ],
+                "source_id":"HadGEM3-GC5c-N216ORCA025",
+                "source":"HadGEM3-GC5c-N216ORCA025 (2024)"
+            },
+            "HadGEM3-GC50-N96ORCA1":{
+                "activity_participation":[
+                    "DECK",
+                    "UCC"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "MOHC"
+                ],
+                "source_id":"HadGEM3-GC50-N96ORCA1",
+                "source":"HadGEM3-GC50-N96ORCA1 (2024)"
+            },
+            "HadGEM3-GC50-N216ORCA025":{
+                "activity_participation":[
+                    "DECK",
+                    "UCC"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "MOHC"
+                ],
+                "source_id":"HadGEM3-GC50-N216ORCA025",
+                "source":"HadGEM3-GC50-N216ORCA025 (2024)"
             }
         },
         "source_type":{
