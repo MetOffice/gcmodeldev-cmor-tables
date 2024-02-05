@@ -333,7 +333,8 @@
             "GCAmon6hrUV"
         ],
         "license":[
-            "^GCModelDev model data is licensed under the Open Government License v3 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)$"
+            "^GCModelDev model data is licensed under the Open Government License v3 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)$",
+            "^Model development data is not licenced for use outside of the organisation that generated it. Please contact the owner of the model simulation if you wish to use it beyond the source organisation.$"
         ],
         "mip_era":[
             "GCModelDev"
