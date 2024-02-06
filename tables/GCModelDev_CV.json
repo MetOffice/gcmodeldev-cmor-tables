@@ -191,8 +191,7 @@
             },
             "HadGEM3-GC5c-N96ORCA1":{
                 "activity_participation":[
-                    "DECK",
-                    "UCC"
+                    "DECK"
                 ],
                 "cohort":[
                     "Registered"
@@ -205,8 +204,7 @@
             },
             "HadGEM3-GC5c-N216ORCA025":{
                 "activity_participation":[
-                    "DECK",
-                    "UCC"
+                    "DECK"
                 ],
                 "cohort":[
                     "Registered"
@@ -219,8 +217,7 @@
             },
             "HadGEM3-GC50-N96ORCA1":{
                 "activity_participation":[
-                    "DECK",
-                    "UCC"
+                    "DECK"
                 ],
                 "cohort":[
                     "Registered"
@@ -233,8 +230,7 @@
             },
             "HadGEM3-GC50-N216ORCA025":{
                 "activity_participation":[
-                    "DECK",
-                    "UCC"
+                    "DECK"
                 ],
                 "cohort":[
                     "Registered"
