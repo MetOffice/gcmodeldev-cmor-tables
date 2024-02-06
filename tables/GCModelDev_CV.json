@@ -86,19 +86,6 @@
                 "source_id":"HadGEM3-GC5p-N216ORCA025",
                 "source":"HadGEM3-GC5p-N216ORCA025 (2023): Prototype N216ORCA025 Gregorian Calendar"
             },
-            "HadREM-CP4A-4p5km":{
-                "activity_participation":[
-                    "DECK"
-                ],
-                "cohort":[
-                    "Registered"
-                ],
-                "institution_id":[
-                    "MOHC"
-                ],
-                "source_id":"HadREM-CP4A-4p5km",
-                "source":"HadREM-CP4A-4p5km"
-            },
             "UKESM1-0-LL":{
                 "activity_participation":[
                     "DECK",
@@ -161,10 +148,9 @@
                 "source_id":"UKESM1-1-LL",
                 "source":"UKESM1.1-LL (2021): \naerosol: UKCA-GLOMAP-mode\natmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km)\natmosChem: UKCA-StratTrop\nland: JULES-ES-1.0\nlandIce: none\nocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m)\nocnBgchem: MEDUSA2\nseaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)"
             },
-            "HadREM3-CP4A-2p2km":{
+            "HadREM-CP4A-4p5km":{
                 "activity_participation":[
-                    "DECK",
-                    "UCC"
+                    "DECK"
                 ],
                 "cohort":[
                     "Registered"
@@ -172,8 +158,8 @@
                 "institution_id":[
                     "MOHC"
                 ],
-                "source_id":"HadREM3-CP4A-2p2km",
-                "source":"HadREM3-CP4A-2p2km (2023)"
+                "source_id":"HadREM-CP4A-4p5km",
+                "source":"HadREM-CP4A-4p5km (2023)"
             },
             "eUKESM1-1-ice-N96ORCA1":{
                 "activity_participation":[
