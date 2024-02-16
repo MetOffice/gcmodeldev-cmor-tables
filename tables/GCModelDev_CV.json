@@ -384,7 +384,8 @@
             "GCAmon",
             "GCAmonUV",
             "GCLmon",
-            "GCAmon6hrUV"
+            "GCAmon6hrUV",
+            "GCAmon6hr"
         ],
         "license":[
             "^GCModelDev model data is licensed under the Open Government License v3 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)$",
