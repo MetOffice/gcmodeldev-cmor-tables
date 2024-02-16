@@ -1,6 +1,6 @@
 {
     "Header": {
-        "data_specs_version": "GCModelDev v0.0.17", 
+        "data_specs_version": "GCModelDev v0.0.18", 
         "cmor_version": "3.5", 
         "table_id": "Table AERhr", 
         "realm": "aerosol", 
