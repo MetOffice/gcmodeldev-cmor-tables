@@ -114,7 +114,7 @@
             "long_name": "Mixed Layer CIN", 
             "comment": "Mixed Layer CIN. Note that altitude of mixed layer is not recorded here, hence no standard name.", 
             "dimensions": "longitude latitude time1", 
-            "out_name": "mlcape", 
+            "out_name": "mlcin", 
             "type": "real", 
             "positive": "", 
             "valid_min": "", 
