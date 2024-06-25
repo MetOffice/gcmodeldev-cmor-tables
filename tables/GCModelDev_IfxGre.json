@@ -1,6 +1,6 @@
 {
     "Header": {
-        "data_specs_version": "GCModelDev v0.0.21", 
+        "data_specs_version": "GCModelDev v0.0.22", 
         "cmor_version": "3.5", 
         "table_id": "Table IfxGre", 
         "realm": "landIce", 
