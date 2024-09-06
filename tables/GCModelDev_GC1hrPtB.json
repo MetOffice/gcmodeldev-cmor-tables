@@ -1,0 +1,54 @@
+{
+    "Header": {
+        "data_specs_version": "GCModelDev v0.0.23", 
+        "cmor_version": "3.5", 
+        "table_id": "Table GC1hrPtB", 
+        "realm": "atmos", 
+        "table_date": "28 May 2020", 
+        "missing_value": "1e20", 
+        "int_missing_value": "-999", 
+        "product": "model-output", 
+        "approx_interval": "0.041667", 
+        "generic_levels": "alevel alevhalf", 
+        "mip_era": "GCModelDev", 
+        "Conventions": "CF-1.7 CMIP-6.2"
+    }, 
+    "variable_entry": {
+        "uas": {
+            "frequency": "1hrPt", 
+            "modeling_realm": "atmos", 
+            "standard_name": "eastward_wind", 
+            "units": "m s-1", 
+            "cell_methods": "area: mean time: point", 
+            "cell_measures": "", 
+            "long_name": "Eastward Near-Surface Wind", 
+            "comment": "Eastward component of the near-surface (usually, 10 meters)  wind on B grid", 
+            "dimensions": "longitude latitude time1 height10m", 
+            "out_name": "uas", 
+            "type": "real", 
+            "positive": "", 
+            "valid_min": "", 
+            "valid_max": "", 
+            "ok_min_mean_abs": "", 
+            "ok_max_mean_abs": ""
+        }, 
+        "vas": {
+            "frequency": "1hrPt",
+            "modeling_realm": "atmos", 
+            "standard_name": "northward_wind", 
+            "units": "m s-1", 
+            "cell_methods": "area: mean time: point", 
+            "cell_measures": "", 
+            "long_name": "Northward Near-Surface Wind", 
+            "comment": "Northward component of the near surface wind on B grid", 
+            "dimensions": "longitude latitude time1 height10m", 
+            "out_name": "vas", 
+            "type": "real", 
+            "positive": "", 
+            "valid_min": "", 
+            "valid_max": "", 
+            "ok_min_mean_abs": "", 
+            "ok_max_mean_abs": ""
+        }
+    }
+}
