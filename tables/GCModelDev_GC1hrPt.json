@@ -69,7 +69,7 @@
             "ok_max_mean_abs": ""
         }, 
         "huss": {
-            "frequency": "6hrPt", 
+            "frequency": "1hrPt", 
             "modeling_realm": "atmos", 
             "standard_name": "specific_humidity", 
             "units": "1", 
