@@ -226,6 +226,45 @@
                 ],
                 "source_id":"HadGEM3-GC50-N216ORCA025",
                 "source":"HadGEM3-GC50-N216ORCA025 (2024)"
+            },
+            "HadGEM3-GC5E-LL":{
+                "activity_participation":[
+                    "DECK"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "MOHC"
+                ],
+                "source_id":"HadGEM3-GC5E-LL",
+                "source":"HadGEM3-GC5E-LL (2024)"
+            },
+            "HadGEM3-GC5E-MM":{
+                "activity_participation":[
+                    "DECK"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "MOHC"
+                ],
+                "source_id":"HadGEM3-GC5E-MM",
+                "source":"HadGEM3-GC5E-MM (2024)"
+            },
+            "HadGEM3-GC5E-HH":{
+                "activity_participation":[
+                    "DECK"
+                ],
+                "cohort":[
+                    "Registered"
+                ],
+                "institution_id":[
+                    "MOHC"
+                ],
+                "source_id":"HadGEM3-GC5E-HH",
+                "source":"HadGEM3-GC5E-HH (2024)"
             }
         },
         "source_type":{
