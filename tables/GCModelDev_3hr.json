@@ -1,6 +1,6 @@
 {
     "Header": {
-        "data_specs_version": "GCModelDev v0.0.23", 
+        "data_specs_version": "GCModelDev v0.0.24", 
         "cmor_version": "3.5", 
         "table_id": "Table 3hr", 
         "realm": "atmos", 
