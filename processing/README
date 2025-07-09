@@ -1,0 +1,9 @@
+#1. update mip_table_dir, mip_convert_external_plugin_location and variable_list_file to have the correct paths
+#2. activate CDDS v3.2.0
+#3. setup directories;
+	create_cdds_directory_structure request.cfg
+#4. Prepare;
+	prepare_generate_variable_list request.cfg
+#5. Lauch Conversion;
+	cdds_convert request.cfg
+#6. watch cylc complete
