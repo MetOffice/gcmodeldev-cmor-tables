@@ -1,0 +1,4 @@
+Amon/zg:ap1
+GCAmon/ta17:ap1
+Amon/ua:ap1
+Amon/va:ap1
