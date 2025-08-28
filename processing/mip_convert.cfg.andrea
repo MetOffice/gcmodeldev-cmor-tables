@@ -1,0 +1,59 @@
+# Produced using CDDS Configure version 3.2.0
+
+# to use run "mip_convert mip_convert.cfg.andrea --relaxed"
+
+[cmor_setup]
+cmor_log_file = cmor.log
+create_subdirectories = 0
+mip_table_dir = /home/users/matthew.mizielinski/SUPPORT/andrea/gcmodeldev-cmor-tables/tables/  # set path appropriately
+netcdf_file_action = CMOR_REPLACE_4
+
+[cmor_dataset] # change metadata as you see fit -- relaxed mode won't care about experiment id or mip
+branch_method = no parent
+calendar = 360_day
+experiment_id = my-1pctCO2
+grid = Native eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude
+grid_label = gn
+institution_id = MOHC
+license = GCModelDev model data is licensed under the Open Government License v3 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+mip = MOHCCP
+mip_era = GCModelDev
+model_id = HadGEM3-GC31-LL
+model_type = AOGCM AER
+nominal_resolution = 100 km
+output_dir = . # files should be written here
+sub_experiment_id = none
+variant_label = r1i1p1f3
+
+[request] # double check that specified paths exist for the ancil files -- $CDDS_ETC is set in the cdds conda environments
+ancil_files = $CDDS_ETC/ancil/HadGEM3-GC31-LL/qrparm.landfrac.pp $CDDS_ETC/ancil/HadGEM3-GC31-LL/qrparm.soil.pp $CDDS_ETC/ancil/HadGEM3-GC31-LL/ocean_constants.nc $CDDS_ETC/ancil/HadGEM3-GC31-LL/ocean_byte_masks.nc $CDDS_ETC/ancil/HadGEM3-GC31-LL/ocean_basin.nc $CDDS_ETC/ancil/HadGEM3-GC31-LL/diaptr_basin_masks.nc $CDDS_ETC/ancil/HadGEM3-GC31-LL/ocean_zostoga.nc
+ancil_variables = 
+atmos_timestep = 1200
+base_date = 1850-01-01T00:00:00
+deflate_level = 2
+force_coordinate_rotation = False
+hybrid_heights_files = $CDDS_ETC/vertical_coordinates/atmosphere_theta_levels_85.txt $CDDS_ETC/vertical_coordinates/atmosphere_rho_levels_86.txt
+mip_convert_external_plugin = hadgem3ext.hadgem3ext_plugin # <mip_convert_external_plugin_location>/hadgem3ext/hadgem3ext_plugin.py must exist
+mip_convert_external_plugin_location = /home/users/matthew.mizielinski/SUPPORT/andrea/gcmodeldev-cmor-tables/mapping_plugin # set path appropriately
+mip_convert_plugin = HadGEM3ext
+model_output_dir = input  # input files should be placed under this directory organised by suite id and stream (e.g. monthly ocean under input/u-do406/onm/)
+replacement_coordinates_file = $CDDS_ETC/horizontal_coordinates/cice_eORCA1_coords.nc
+run_bounds = 1950-01-01T00:00:00 2000-01-01T00:00:00
+shuffle = True
+sites_file = $CDDS_ETC/cfmip2/cfmip2-sites-orog.txt
+suite_id = u-do406
+
+[global_attributes]
+further_info_url = none
+
+[masking]
+stream_onm_cice-U = -1:None:None,180:None:None
+stream_onm_grid-V = -1:None:None,180:None:None
+
+[stream_onm_grid-T]
+GCModelDev_GCOyr = thetao
+
+#if you are working with ony data then put input data in input/suiteid/ony and swap two lines above with those below (uncommented)
+#[stream_ony_grid-T]
+#GCModelDev_GCOyr = thetao
+
