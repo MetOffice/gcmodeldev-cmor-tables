@@ -71,7 +71,7 @@ class OperationBaseClass():
         return editor(dictionary)
 
     def read_miptable_file(self, path):
-        self.files = [f for f in listdir(path) if isfile(join(path, f)) and f != 'CMIP6_CV.json']
+        self.files = [f for f in listdir(path) if isfile(join(path, f)) and f != 'GCModelDev_CV.json']
 
         for table in self.files:
             key = table.split('_')[1].split('.json')[0]
@@ -148,6 +148,7 @@ class ControlledVocabulary(OperationBaseClass):
 class MipTable(OperationBaseClass):
 
     def __init__(self, arguments):
+        self.mip_era = 'GCModelDev'
         self.arguments = arguments
         self.setup()
         self.switch_statement()
@@ -164,13 +165,13 @@ class MipTable(OperationBaseClass):
         self.cv_dict['CV'][self.arguments.domain].update(dictionary)
 
     def _add(self):
-        path = join(self.arguments.path, 'CMIP6_{}.json'.format(self.arguments.table))
+        path = join(self.arguments.path, '{}_{}.json'.format(self.mip_era, self.arguments.table))
         write_json(path, TABLE_OBJECT, indent=4, sort_keys=False, separators=(',', ':'))
 
     def _clone(self):
         dictionary = read_json(self.mip_table_file)
         dictionary = self.send_to_editor(dictionary)
-        new_path = join(self.arguments.path, 'CMIP6_{}.json'.format(self.arguments.name))
+        new_path = join(self.arguments.path, '{}_{}.json'.format(self.mip_era, self.arguments.name))
         write_json(new_path, dictionary, indent=4, sort_keys=False, separators=(',', ':'))
 
     def _modify(self):

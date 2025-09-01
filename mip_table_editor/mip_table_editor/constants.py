@@ -28,7 +28,7 @@ TABLE_OBJECT = {
         "product": "model-output",
         "approx_interval": "30.00000",
         "generic_levels": "alevel olevel",
-        "mip_era": "CMIP6",
+        "mip_era": "GCModelDev",
         "Conventions": "CF-1.7 CMIP-6.2",
     },
     "variable_entry": {},
