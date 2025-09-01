@@ -1,1 +1,3 @@
-GC6hrPt/tos:ap7
+Amon/tas:ap5
+Omon/tos:onm/grid-T
+SImon/sicoc: inm
