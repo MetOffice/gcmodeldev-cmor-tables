@@ -9,9 +9,9 @@ BGCOLORS = ['#E0EEFF', '#FFFFFF']
 HEADER = """
 <html>
 <head>
-<link rel="stylesheet" type="text/css" charset="UTF-8" href="src/jquery.dataTables-1.11.4.min.css" />
-<script type="text/javascript" charset="UTF-8" src="src/jquery-3.6.0.slim.min.js"></script>
-<script type="text/javascript" charset="UTF-8" src="src/jquery.dataTables-1.11.4.min.js"></script>
+<link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdn.datatables.net/2.3.2/css/dataTables.dataTables.min.css" />
+<script type="text/javascript" charset="UTF-8" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script type="text/javascript" charset="UTF-8" src="https://cdn.datatables.net/2.3.2/js/dataTables.min.js"></script>
 <script type="text/javascript">
 //<![CDATA[
 $(document).ready( function () {
