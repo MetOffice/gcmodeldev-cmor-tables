@@ -402,6 +402,7 @@
             "Eyr",
             "GC1hr",
             "GC1hrPt",
+            "GC1hrPtB",
             "GC3hr",
             "GC3hrPtUV",
             "GCAERmon",
@@ -433,7 +434,8 @@
         ],
         "license":[
             "^GCModelDev model data is licensed under the Open Government License v3 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)$",
-            "^Model development data is not licenced for use outside of the organisation that generated it. Please contact the owner of the model simulation if you wish to use it beyond the source organisation.$"
+            "^Model development data is not licenced for use outside of the organisation that generated it. Please contact the owner of the model simulation if you wish to use it beyond the source organisation.$",
+            "^CP4A model data is licensed for Non-Commercial Research Use only. Before using, you must contact cp4a@metoffice.gov.uk if you do not have a licence agreement in-place before public release - likely in 2027, date TBC.$"
         ],
         "mip_era":[
             "GCModelDev"
