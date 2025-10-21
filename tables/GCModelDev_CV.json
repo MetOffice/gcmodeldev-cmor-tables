@@ -444,6 +444,30 @@
             "none":"none"
         },
         "experiment_id":{
+            "ERA5":{
+                "activity_id":[
+                    "DECK"
+                ],
+                "additional_allowed_model_components":[
+                    "AER",
+                    "CHEM",
+                    "BGC"
+                ],
+                "experiment":"ERA5",
+                "experiment_id":"ERA5",
+                "parent_activity_id":[
+                    "DECK"
+                ],
+                "parent_experiment_id":[
+                    "no parent"
+                ],
+                "required_model_components":[
+                    "AGCM"
+                ],
+                "sub_experiment_id":[
+                    "none"
+                ]
+            },
             "1pctCO2":{
                 "activity_id":[
                     "DECK"
