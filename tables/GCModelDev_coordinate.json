@@ -859,7 +859,7 @@
             "tolerance": "",
             "type": "double",
             "valid_max": "360.0",
-            "valid_min": "0.0",
+            "valid_min": "-180.0",
             "value": "",
             "z_bounds_factors": "",
             "z_factors": "",
