@@ -32,7 +32,9 @@
         "version_metadata":{
             "CV_collection_version":"GCModelDev v0.0.24"
         },
-        "activity_id": ".*",
+        "activity_id": [
+            "^[^_]*$"
+        ],
         "institution_id":{
             "MOHC":"Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK"
         },
@@ -434,7 +436,9 @@
         "sub_experiment_id":{
             "none":"none"
         },
-        "experiment_id": ".*",
+        "experiment_id": [
+           "^[^_]*$"
+        ],
         "tracking_id":[
             "GCMODELDEV/.*"
         ],
