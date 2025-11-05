@@ -30,7 +30,7 @@
             "variant_label"
         ],
         "version_metadata":{
-            "CV_collection_version":"GCModelDev v0.0.24"
+            "CV_collection_version":"GCModelDev v0.0.25"
         },
         "activity_id":{
             "DECK":"CMIP DECK Experiments",
