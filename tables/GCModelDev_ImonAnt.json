@@ -1,6 +1,6 @@
 {
     "Header": {
-        "data_specs_version": "GCModelDev v0.0.24", 
+        "data_specs_version": "GCModelDev v0.0.25", 
         "cmor_version": "3.5", 
         "table_id": "Table ImonAnt", 
         "realm": "landIce land", 
