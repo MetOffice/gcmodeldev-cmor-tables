@@ -36,7 +36,8 @@
             "^[^_]*$"
         ],
         "institution_id":{
-            "MOHC":"Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK"
+            "MOHC":"Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB, UK",
+	    "UEdin":"University of Edinburgh, UK"
         },
         "source_id":{
             "HadGEM3-GC31-LL":{
