@@ -39,3 +39,11 @@ class UKESM1extMappingPlugin(BaseMappingPlugin):
         # TODO: Remove assign to class variable after refactoring mipconvert.mipconvert.new_variable line 793
         self.input_variables = input_variables
         return eval(expression)
+
+    def constants(self) -> Dict[str,str]:
+        constant_dict = super(UKESM1extMappingPlugin, self).constants()
+        constant_dict.update({
+            'MOLECULAR_MASS_CH3CHO' : '44.0',
+            )}
+        return constant_dict
+
